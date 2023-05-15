@@ -71,6 +71,7 @@ jobs:
 #             ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}
       - name: Install dependencies
         run: |
+            cd actions/sciblog
             npm ci
             npm run build
       - name: Upload artifact
