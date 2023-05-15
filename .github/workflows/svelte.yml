@@ -1,8 +1,4 @@
-# Sample workflow for building and deploying a Next.js site to GitHub Pages
-#
-# To get started with Next.js see: https://nextjs.org/docs/getting-started
-#
-name: Deploy Next.js site to Pages
+name: Svelte Deployment
 
 on:
   # Runs on pushes targeting the default branch
@@ -31,12 +27,17 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-        
+
       - uses: actions/checkout@v3
         with:
           repository: Better-Papers/sciblog
           ref: main
           path: actions/sciblog
+
+      - name: Move files
+        run: |
+          rm -rf actions/sciblog/src/posts/*
+          rsync -av --progress --exclude="actions" . actions/sciblog/src/posts/
 
       - name: Detect package manager
         id: detect-package-manager
@@ -59,21 +60,21 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: "16"
-          cache: 'npm'
+          cache: "npm"
           cache-dependency-path: "actions/sciblog/package-lock.json"
-#       - name: Restore cache
-#         uses: actions/cache@v3
-#         with:
-#           path: |
-#             actions/sciblog/node_modules
-#           key: ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}
-#           restore-keys: |
-#             ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}
+      #       - name: Restore cache
+      #         uses: actions/cache@v3
+      #         with:
+      #           path: |
+      #             actions/sciblog/node_modules
+      #           key: ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}
+      #           restore-keys: |
+      #             ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}
       - name: Install dependencies
         run: |
-            cd actions/sciblog
-            npm ci
-            npm run build
+          cd actions/sciblog
+          npm ci
+          npm run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
