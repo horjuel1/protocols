@@ -5,6 +5,7 @@ title: sci-protocol
 ## Nuclei isolation
 
 **Timing:** 2 h
+
 **CRITICAL:** LoBind (DNA/RNA) microcentrifuge tubes are preferred for all steps in which they are used for collecting nuclei.
 
 1. Prepare two ice buckets with wet ice, a bucket with crushed dry ice to hold your frozen tissues, and a thick, flat slab of dry ice for smashing tissues.
