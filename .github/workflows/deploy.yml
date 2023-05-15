@@ -23,16 +23,17 @@ jobs:
         with:
           node-version: "18"
           cache: "npm"
+          cache-dependency-path: "actions/sciblog/package-lock.json"
 
       - run: |
           rm -rf actions/sciblog/src/posts/*
           rsync -av --progress --exclude="actions" . actions/sciblog/src/posts/
 
-      - uses: actions/cache@v3
-        with:
-          path: |
-            node_modules
-          key: ${{ runner.os }}-${{ hashFiles('package-lock.json') }}
+      #   - uses: actions/cache@v3
+      #     with:
+      #       path: |
+      #         node_modules
+      #       key: ${{ runner.os }}-${{ hashFiles('package-lock.json') }}
 
       - name: Install dependencies and build
         run: |
