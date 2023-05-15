@@ -1,6 +1,10 @@
 ---
 title: sci-protocol
+subtitle: A protocol
+date: May 15, 2023
 ---
+
+Main reference is [@martinOptimizedSinglenucleus2023].
 
 ## Nuclei isolation
 
@@ -69,3 +73,7 @@ title: sci-protocol
 10. If you got clumps from fixing, sonicate the tube for 12 s on low at 4 °C.
 11. Spin again at 500g for 3 min at 4 °C. Carefully remove the supernatant and resuspend the nuclei pellet gently in SPBSTM so that the volume is 42.5 μl. Add 2.5 μl of 10 mM dNTPs and put 5 μl into each well of one column on a plate, noting into which wells the nuclei went.
 12. Fill up the
+
+## References
+
+[^ref]
