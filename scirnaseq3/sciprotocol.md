@@ -10,9 +10,12 @@ Main reference is [@martinOptimizedSinglenucleus2023].
 
 <span style="color: #6495ED;">**Timing:** 2 h</span>
 
+
 <span style="color: #702963;">**CRITICAL:**</span> Keep everything cold and on ice at all times. Pre-cool tubes on ice before adding cells/nuclei.
 
-<span style="color: #702963;">**CRITICAL:**</span> LoBind (DNA/RNA) microcentrifuge tubes are preferred for all steps in which they are used for collecting nuclei.
+
+**<span style="color: #702963;">CRITICAL:</span>** LoBind (DNA/RNA) microcentrifuge tubes are preferred for all steps in which they are used for collecting nuclei.
+
 
 1. Prepare two ice buckets with wet ice, a bucket with crushed dry ice to hold your frozen tissues, and a thick, flat slab of dry ice for smashing tissues.
    Pre-cool both a centrifuge that will hold 50-ml tubes and a microcentrifuge to 4 °C.
