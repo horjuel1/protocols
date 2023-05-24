@@ -8,10 +8,10 @@ Main reference is [@martinOptimizedSinglenucleus2023].
 
 ## Nuclei isolation
 
-<span style="color: #6495ED;">**Timing:** 2 h</span>
+**<span style="color: #6495ED;">Timing: 2 h</span>**
 
 
-<span style="color: #702963;">**CRITICAL:**</span> Keep everything cold and on ice at all times. Pre-cool tubes on ice before adding cells/nuclei.
+**<span style="color: #702963;">CRITICAL:</span>** Keep everything cold and on ice at all times. Pre-cool tubes on ice before adding cells/nuclei.
 
 
 **<span style="color: #702963;">CRITICAL:</span>** LoBind (DNA/RNA) microcentrifuge tubes are preferred for all steps in which they are used for collecting nuclei.
@@ -62,7 +62,7 @@ Main reference is [@martinOptimizedSinglenucleus2023].
 
 **Tiny-Sci (optional approach)**
 
-<span style="color: #6495ED;">**Timing 1 h**</span>
+**<span style="color: #6495ED;">Timing 1 h</span>**
 
 ### Procedure
 
@@ -95,7 +95,7 @@ transcription.
 
 ## Nuclei/Cell Fixation
 
-<span style="color: #6495ED;">**Timing:** 1 h</span>
+**<span style="color: #6495ED;">Timing: 1 h</span>**
 
 1. For each sample, prepare fixative. In a 5-ml tube, add 100 μl of 50 mg/ml DSP stock solution to 4 ml of ice-cold methanol for every 1 ml of nuclei with which you are starting.
 
@@ -103,7 +103,7 @@ transcription.
 
 3. Fix on ice for 15 min, swirling occasionally.
 
-<span style="color: #228B22;">**PAUSE POINT**</span> Fixed samples may be held here prior to rehydration. To pause, add 0.1 volume of 1M glycine pH 8.5 to quench DSP. Store at −80°C
+**<span style="color: #228B22;">PAUSE POINT</span>** Fixed samples may be held here prior to rehydration. To pause, add 0.1 volume of 1M glycine pH 8.5 to quench DSP. Store at −80°C
 
 4. Add 2 volumes of 0.3 M SPBSTM **(or PBS-T if using cells)** gradually, 2–3 ml at a time, swirling between additions to rehydrate the nuclei. For instance, with 1 ml of nuclei and 4 ml of fixative, you would need 10 ml of buffer to rehydrate.
 
@@ -115,13 +115,13 @@ transcription.
 
 8. Divide fixed nuclei into aliquots of ~2 million nuclei (Fig. 5) in microcentrifuge tubes. Spin at 500g for 3 min at 4 °C and remove and discard the supernatant. Continue with the protocol or snap-freeze tubes in liquid nitrogen and store at −80 °C.
 
-<span style="color: #228B22;">**PAUSE POINT**</span> Fixed samples may be stored at −80 °C for ≤6 months.
+**<span style="color: #228B22;">PAUSE POINT</span>** Fixed samples may be stored at −80 °C for ≤6 months.
 
 9. (**Optional**) If continuing with the protocol the same day and there are obvious clumps at this point that will not tease apart, you will need to sonicate them to break them up. Sonicate (Diagenode Bioruptor Plus) on low intensity for 12 s only at 4 °C. Spin and resuspend the nuclei in 500 μl of 0.3M SPBSTM (or PBS-T) as in Step 21.
 
 ## Reverse Transcription
 
-<span style="color: #6495ED;">**Timing:** 2-3 h</span>
+**<span style="color: #6495ED;">Timing: 2-3 h</span>**
 
 ## References
 
