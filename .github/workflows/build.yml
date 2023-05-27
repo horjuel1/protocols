@@ -50,7 +50,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: "16"
+          node-version: current
           cache: "npm"
           cache-dependency-path: "actions/sciblog/package-lock.json"
 
