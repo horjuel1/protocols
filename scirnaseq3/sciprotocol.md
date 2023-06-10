@@ -1,10 +1,32 @@
 ---
 title: sci-protocol
-subtitle: A protocol
+subtitle: Modified sci-RNA-Seq3 protocol for single-cell/nucleus RNA-seq
 date: May 15, 2023
+Author: Chaichontat Sriworarat
 ---
 
 Main reference is [@martinOptimizedSinglenucleus2023].
+
+## Materials & Reagents
+
+- DSP (Lomant’s reagent; Thermo Fisher, cat. no. 22586 or PG82081) CRITICAL DSP is sensitive to water and should be used immediately after dissolving in dimethyl sulfoxide (DMSO).
+- Methanol (Millipore Sigma, cat. no. 494437-2L)
+- DMSO (Millipore Sigma, cat. no. D2438-5X10ML) CRITICAL DMSO used for dissolving DSP should be new and unopened so that water is not introduced. These smaller bottles are useful for this reason.
+- Sodium phosphate dibasic (Millipore Sigma, cat. no. S3264-250G)
+- Sodium phosphate monobasic monohydrate (Millipore Sigma, cat. no. 71507-250G)
+- Potassium phosphate monobasic (Millipore Sigma, cat. no. P9791-100G)
+- Sodium chloride (Millipore Sigma, cat. no. S3014-500G)
+- Potassium chloride (Millipore Sigma, cat. no. P9541-500G)
+- Magnesium chloride solution, 2 M (Millipore Sigma, cat. no. 68475-100ML-F)
+- Igepal CA-630 (Millipore Sigma, cat. no. I8896-50ML)
+- BSA, 20 mg/ml (New England Biolabs, cat. no. B9000S)
+- DEPC (Millipore Sigma, cat. no. D5758-25ML) ! CAUTION Handle DEPC, and samples containing it, in a fume hood.
+- Sucrose (VWR, cat. no. 97061-428)
+- Triton X-100 (Millipore Sigma, cat. no. T8787-100ML)
+- Tween 20 (Thermo Fisher, cat. no. BP-337-100)
+- 10× Dulbecco’s PBS (10× DPBS; Thermo Fisher, cat. no. 14200075)
+- Superscript IV reverse transcriptase (Thermo Fisher, cat. no. 18090200)
+- T4 DNA Ligase (New England Biolabs, cat. no. M0202L)
 
 ## Nuclei isolation
 
