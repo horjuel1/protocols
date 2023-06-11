@@ -9,44 +9,43 @@ Main reference is [@martinOptimizedSinglenucleus2023].
 
 ## Materials & Reagents
 
-- DSP (Lomant’s reagent; Thermo Fisher, cat. no. 22586 or PG82081) CRITICAL DSP is sensitive to water and should be used immediately after dissolving in dimethyl sulfoxide (DMSO).
-- Methanol (Millipore Sigma, cat. no. 494437-2L)
-- DMSO (Millipore Sigma, cat. no. D2438-5X10ML) CRITICAL DMSO used for dissolving DSP should be new and unopened so that water is not introduced. These smaller bottles are useful for this reason.
-- Sodium phosphate dibasic (Millipore Sigma, cat. no. S3264-250G)
-- Sodium phosphate monobasic monohydrate (Millipore Sigma, cat. no. 71507-250G)
-- Potassium phosphate monobasic (Millipore Sigma, cat. no. P9791-100G)
-- Sodium chloride (Millipore Sigma, cat. no. S3014-500G)
-- Potassium chloride (Millipore Sigma, cat. no. P9541-500G)
-- Magnesium chloride solution, 2 M (Millipore Sigma, cat. no. 68475-100ML-F)
-- Igepal CA-630 (Millipore Sigma, cat. no. I8896-50ML)
-- BSA, 20 mg/ml (New England Biolabs, cat. no. B9000S)
-- DEPC (Millipore Sigma, cat. no. D5758-25ML) **CAUTION** Handle DEPC, and samples containing it, in a fume hood.
-- Sucrose (VWR, cat. no. 97061-428)
-- Triton X-100 (Millipore Sigma, cat. no. T8787-100ML)
-- Tween 20 (Thermo Fisher, cat. no. BP-337-100)
-- 10× Dulbecco’s PBS (10× DPBS; Thermo Fisher, cat. no. 14200075)
-- Superscript IV reverse transcriptase (Thermo Fisher, cat. no. 18090200)
-- T4 DNA Ligase (New England Biolabs, cat. no. M0202L)
-Tagmentase (Tn5 transposase), unloaded (Diagenode, cat. no. C01070010-20) CRITICAL The amount of tagmentase added to Step 57 has been determined for this brand only.
-- Tn5-N7 oligo (5'-GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG-3', high-purity salt-free; Eurofins)
-- Mosaic End (ME) oligo (5'-/5Phos/CTGTCTCTTATACACATCT-3', high-purity salt-free; Eurofins)
-- NEBNext mRNA second-strand synthesis module (New England Biolabs, cat. no. E6111L)
-- NEBNext high !delity 2× PCR master mix (New England Biolabs, cat. no. M0541L)
-- dNTP mix (New England Biolabs, cat. no. N0447L)
-- Agencourt AMPure XP (Beckman Coulter, cat. no. A63882)
-- Yoyo dye (Thermo Fisher, cat. no. Y3601)
-- RNaseAlert kit (IDT, cat. no. 11-02-01-02)
-- RNaseZap (Thermo Fisher, cat. no. AM9780)
-- Elution buffer (EB, 10 mM Tris pH 8.5; Qiagen, cat. no. 19086)
-- Protease (Qiagen, cat. no. 19157) CRITICAL Do not use any other protease/proteinase. This one can
-be heat-inactivated at the temperature and time listed in the protocol.
-- 6% TBE Novex PAGE gels (10 wells; Thermo Fisher, cat. no. EC6262BOX)
-- UltraPure agarose (Thermo Fisher, cat. no. 16500-500)
-- Qubit double-stranded DNA high-sensitivity quantitation kit (Thermo, cat. no. Q32851)
+|Reagent | Vendor | Notes|
+|--------|--------|------|
+| DSP | (Lomant’s reagent; Thermo Fisher, cat. no. 22586 or PG82081) | CRITICAL DSP is sensitive to water and should be used immediately after dissolving in dimethyl sulfoxide (DMSO) |
+| Methanol | (Millipore Sigma, cat. no. 494437-2L) |     |
+| DMSO | (Millipore Sigma, cat. no. D2438-5X10ML) | CRITICAL DMSO used for dissolving DSP should be new and unopened so that water is not introduced. These smaller bottles are useful for this reason.     |
+| Sodium phosphate dibasic | (Millipore Sigma, cat. no. S3264-250G) |   |
+| Sodium phosphate monobasic monohydrate | (Millipore Sigma, cat. no. 71507-250G) |    |
+| Potassium phosphate monobasic | (Millipore Sigma, cat. no. P9791-100G) |    |
+| Sodium chloride | (Millipore Sigma, cat. no. S3014-500G) |   |
+| Potassium chloride | (Millipore Sigma, cat. no. P9541-500G) |   |
+| Magnesium chloride solution, 2 M | (Millipore Sigma, cat. no. 68475-100ML-F) |    |
+| Igepal CA-630 | (Millipore Sigma, cat. no. I8896-50ML) |     |
+| BSA, 20 mg/ml | (New England Biolabs, cat. no. B9000S) |     |
+| DEPC | (Millipore Sigma, cat. no. D5758-25ML) | **CAUTION** Handle DEPC, and samples containing it, in a fume hood.   |
+| Sucrose | (VWR, cat. no. 97061-428) |   |
+| Triton X-100 | (Millipore Sigma, cat. no. T8787-100ML) |     |
+| Tween 20 | (Thermo Fisher, cat. no. BP-337-100) |   |
+| 10× Dulbecco’s PBS | (10× DPBS; Thermo Fisher, cat. no. 14200075) |   |
+| Superscript IV reverse transcriptase | (Thermo Fisher, cat. no. 18090200) |    |
+| T4 DNA Ligase | (New England Biolabs, cat. no. M0202L) |     |
+| Tagmentase (Tn5 transposase) , unloaded | (Diagenode, cat. no. C01070010-20) | **CRITICAL** The amount of tagmentase added to Step 57 has been determined for this brand only.   |
+| Tn5-N7 oligo | (5'-GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG-3', high-purity salt-free; Eurofins) |     |
+| Mosaic End (ME) oligo | (5'-/5Phos/CTGTCTCTTATACACATCT-3', high-purity salt-free; Eurofins) |   |
+| NEBNext mRNA second-strand synthesis module | (New England Biolabs, cat. no. E6111L) |     |
+| NEBNext high !delity 2× PCR master mix | (New England Biolabs, cat. no. M0541L) |    |
+| dNTP mix | (New England Biolabs, cat. no. N0447L) |    |
+| Agencourt AMPure XP | (Beckman Coulter, cat. no. A63882) |   |
+| Yoyo dye | (Thermo Fisher, cat. no. Y3601) |     |
+| RNaseAlert kit | (IDT, cat. no. 11-02-01-02) |   |
+| RNaseZap | (Thermo Fisher, cat. no. AM9780) |    |
+| Elution buffer | (EB, 10 mM Tris pH 8.5; Qiagen, cat. no. 19086) |    |
+| Protease | (Qiagen, cat. no. 19157) | **CRITICAL** Do not use any other protease/proteinase. This one can be heat-inactivated at the temperature and time listed in the protocol. |
+| 6% TBE Novex PAGE gels | (10 wells; Thermo Fisher, cat. no. EC6262BOX) |    |
+| UltraPure agarose | (Thermo Fisher, cat. no. 16500-500) |    |
+| Qubit double-stranded DNA high-sensitivity quantitation kit | (Thermo, cat. no. Q32851) |     |
+| sci-RNA-seq3 indexed primer plates at 10 &mu;M dilution (standard desalting for puri!cation; random bases do not need hand-mixing). |   The plates include the following: plate(s) of indexed oligo-dT RT primers (5'- /5Phos/ CAGAGCNNNNNNNN[10bpRTindex]TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT-3', where ‘N’ is any base; IDT), plate(s) of indexed ligation primers (5'- GCTCTG[9- or 10-bp ligation index] TACGACGCTCTTCCGATCT[reverse complement of ligation index]-3'), plate of indexed PCR P7 primers (5'-CAAGCAGAAGACGGCATACGAGAT[PCR P7 index]GTCTCGTGGGCTCGG-3'; IDT); and PCR P5 primers (this primer does not need to be indexed if you do only one plate of PCR) (5'-AATGATACGGCGACCACCGAGATCTACAC[PCR P5 index]ACACTCTTTCCCTA- CACGACGCTCTTCCGATCT-3'; IDT). | \***These are modified from sci-RNA-SeqV3** |
 
-**These are modified from sci-RNA-SeqV3**
-- sci-RNA-seq3 indexed primer plates at 10 !M dilution (standard desalting for puri!cation; random
-bases do not need hand-mixing). The complete list of primers is found in Supplementary Table 1. The plates include the following: plate(s) of indexed oligo-dT RT primers (5'- /5Phos/ CAGAGCNNNNNNNN[10bpRTindex]TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT-3', where ‘N’ is any base; IDT), plate(s) of indexed ligation primers (5'- GCTCTG[9- or 10-bp ligation index] TACGACGCTCTTCCGATCT[reverse complement of ligation index]-3'), plate of indexed PCR P7 primers (5'-CAAGCAGAAGACGGCATACGAGAT[PCR P7 index]GTCTCGTGGGCTCGG-3'; IDT); and PCR P5 primers (this primer does not need to be indexed if you do only one plate of PCR) (5'-AATGATACGGCGACCACCGAGATCTACAC[PCR P5 index]ACACTCTTTCCCTA- CACGACGCTCTTCCGATCT-3'; IDT).
 
 ## Nuclei isolation
 
