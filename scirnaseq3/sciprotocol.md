@@ -37,8 +37,8 @@ Main reference is [@martinOptimizedSinglenucleus2023]. All modifications/improve
 # Table of Contents
 - [Table of Contents](#table-of-contents)
 - [Preparation](#preparation)
-  - [Materials \& Reagents](#materials--reagents)
-  - [Buffers \& Solutions](#buffers--solutions)
+  - [Materials and Reagents](#materials-and-reagents)
+  - [Buffers and Solutions](#buffers-and-solutions)
   - [Equipment](#equipment)
   - [Reagent setup](#reagent-setup)
     - [10× PBS-hypotonic stock solution](#10-pbs-hypotonic-stock-solution)
@@ -66,7 +66,7 @@ Main reference is [@martinOptimizedSinglenucleus2023]. All modifications/improve
 
 # Preparation
 
-## Materials & Reagents
+## Materials and Reagents
 
 |Reagent | Vendor | Notes|
 |--------|--------|------|
@@ -105,7 +105,7 @@ Main reference is [@martinOptimizedSinglenucleus2023]. All modifications/improve
 | Qubit double-stranded DNA high-sensitivity quantitation kit | (Thermo, cat. no. Q32851) |     |
 | sci-RNA-seq3 indexed primer plates at 10 &mu;M dilution (standard desalting for purification; random bases do not need hand-mixing). |   The plates include the following:<ul><li> Plate(s) of indexed oligo-dT RT primers (<span class="sequence">5'-/5Phos/CAGAGCNNNNNNNN[10bpRTindex]TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT-3'</span>, where ‘N’ is any base; IDT)</li><li>Plate(s) of indexed ligation primers (<span class="sequence">5'-GCTCTG[9- or 10-bp ligation index] TACGACGCTCTTCCGATCT[reverse complement of ligation index]-3'</span>)</li><li>Plate of indexed PCR P7 primers (<span class="sequence">5'-CAAGCAGAAGACGGCATACGAGAT[PCR P7 index]GTCTCGTGGGCTCGG-3'</span>; IDT)</li><li>Plate of PCR P5 primers (this primer does not need to be indexed if you do only one plate of PCR) (<span class="sequence">5'-AATGATACGGCGACCACCGAGATCTACAC[PCR P5 index]ACACTCTTTCCCTA-CACGACGCTCTTCCGATCT-3'</span>; IDT). | \**These are modified from sci-RNA-SeqV3** |
 
-## Buffers & Solutions
+## Buffers and Solutions
 
 ## Equipment
 Equipment
@@ -131,14 +131,14 @@ Mix 5.45 g of Na2HPO4 (dibasic), 3.1 g of NaH2PO4·H20, 1.2 g of KH2PO4, 1 g of 
 ### Hypotonic lysis buffer solution A
 This buffer is used for whole mouse embryos E16.5 and older. Mix 5 ml of the 10× PBS-hypotonic stock solution, 5.7 g of sucrose, 75 &mu;l of 2 M MgCl2 and nuclease-free water to a final volume of 50 ml to make the lysis base solution. Right before lysis, for every 1 ml of lysis buffer needed, add 2.5 &mu;l of 10% (vol/vol) igepal (vol/vol) and 10 &mu;l of DEPC and then vortex the solution to disperse the DEPC throughout. For example, if a sample needs 5 ml of lysis buffer, take a 5-ml aliquot of lysis buffer stock solution and add 12.5 &mu;l of 10% (vol/vol) igepal and 50 &mu;l of DEPC. Keep the buffer on ice. Make fresh for each experiment. 
 
-<span class="caution">CAUTION:</span> DEPC needs to be used in a fume hood. 
+<span class="caution">CAUTION:</span> DEPC needs to be used in a fume hood. <br>
 
 <span class="critical">CRITICAL:</span>  DEPC has a short half-life in aqueous solutions, so adding it to the buffer just before the cells are added is important.
 
 ### Hypotonic lysis buffer solution B
 This buffer is used for Tiny-Sci, cell lines, mouse embryos under E16.5 and isolated tissues. Mix 5 ml of the 10× PBS-hypotonic stock solution, 75 &mu;l of 2 M MgCl2 and nuclease-free water to a final volume of 50 ml to make the lysis base solution. Right before lysis, for every 1 ml of lysis buffer needed, add 40 &mu;l of BSA (20 mg/ml), 2.5 &mu;l of 10% (vol/vol) igepal and 10 &mu;l of DEPC and then vortex the solution to disperse the DEPC throughout. For example, if a sample needs 5 ml of lysis buffer, take a 5-ml aliquot of lysis buffer base solution and add 200 &mu;l of BSA, 12.5 &mu;l of 10% (vol/vol) igepal and 50&mu;l of DEPC. Keep the buffer on ice. Make fresh for each experiment.
 
-<span class="caution">CAUTION:</span> DEPC needs to be used in a fume hood. 
+<span class="caution">CAUTION:</span> DEPC needs to be used in a fume hood. <br>
 
 <span class="critical">CRITICAL:</span> DEPC has a short half-life in aqueous solutions, so adding it to the buffer just before the cells are added is important.
 
@@ -158,7 +158,7 @@ The annealed N7 oligos are Tn5-N7 (<span class="sequence">5'-GTCTCGTGGGCTCGGAGAT
 To 20 &mu;l of Tn5, add 20 &mu;l of annealed N7 oligos. Place in a thermomixer and shake at 350 rpm and 23 °C for 30 min. Add 20 &mu;l of glycerol. Store at -20 °C for &le;6 months.
 
 ### Tagment DNA buffer (2×)
-To38.75mlofnuclease-freewater,add1mlof1MTrispH7.6,250&mu;lof2MMgCl2 and10mlof dimethylformamide. The final volume is 50 ml. Make 550-&mu;l aliquots and store them at -20 °C for &le;6 months.
+To 38.75 ml of nuclease-free water, add 1ml of 1M Tris pH7.6, 250&mu;l of 2M MgCl<sub>2</sub> and 10 ml of dimethylformamide. The final volume is 50 ml. Make 550 &mu;l aliquots and store them at -20 °C for &le;6 months.
 
 ### Indexed primer plates
 Primers for reverse transcription, ligation and PCR indexing steps are ordered at 100 &mu;M. Working dilutions are made to 10 &mu;M in EB (10 mM Tris-Cl pH 8.5) and kept at 4 °C for &le;6 months. 
