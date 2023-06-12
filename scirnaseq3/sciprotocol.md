@@ -34,13 +34,12 @@ Author: Chaichontat Sriworarat
 
 Main reference is [@martinOptimizedSinglenucleus2023]. All modifications/improvements are derivative of this base protocol.
 
-# Table of Contents
-- [Table of Contents](#table-of-contents)
+# Table of Content
+- [Table of Content](#table-of-content)
 - [Preparation](#preparation)
   - [Materials and Reagents](#materials-and-reagents)
-  - [Buffers and Solutions](#buffers-and-solutions)
   - [Equipment](#equipment)
-  - [Reagent setup](#reagent-setup)
+  - [Buffers and Solutions](#buffers-and-solutions)
     - [10× PBS-hypotonic stock solution](#10-pbs-hypotonic-stock-solution)
     - [Hypotonic lysis buffer solution A](#hypotonic-lysis-buffer-solution-a)
     - [Hypotonic lysis buffer solution B](#hypotonic-lysis-buffer-solution-b)
@@ -51,13 +50,14 @@ Main reference is [@martinOptimizedSinglenucleus2023]. All modifications/improve
     - [N7-loaded Tn5](#n7-loaded-tn5)
     - [Tagment DNA buffer (2×)](#tagment-dna-buffer-2)
     - [Indexed primer plates](#indexed-primer-plates)
-    - [10% (vol/vol) igepal](#10-volvol-igepal)
+    - [10% (vol/vol) IGEPAL](#10-volvol-igepal)
     - [10% (vol/vol) Triton X-100](#10-volvol-triton-x-100)
     - [10% (vol/vol) Tween 20](#10-volvol-tween-20)
     - [Protease](#protease)
 - [Protocol](#protocol)
   - [Nuclei isolation](#nuclei-isolation)
-    - [Procedure](#procedure)
+    - [**_Tiny-Sci (optional approach)_**](#tiny-sci-optional-approach)
+  - [Nuclei/Cell Fixation](#nucleicell-fixation)
   - [Reverse Transcription](#reverse-transcription)
   - [Tagmentation](#tagmentation)
   - [Library Amplification](#library-amplification)
@@ -79,7 +79,7 @@ Main reference is [@martinOptimizedSinglenucleus2023]. All modifications/improve
 | Sodium chloride | (Millipore Sigma, cat. no. S3014-500G) |   |
 | Potassium chloride | (Millipore Sigma, cat. no. P9541-500G) |   |
 | Magnesium chloride solution, 2 M | (Millipore Sigma, cat. no. 68475-100ML-F) |    |
-| Igepal CA-630 | (Millipore Sigma, cat. no. I8896-50ML) |     |
+| IGEPAL CA-630 | (Millipore Sigma, cat. no. I8896-50ML) |     |
 | BSA, 20 mg/ml | (New England Biolabs, cat. no. B9000S) |     |
 | DEPC | (Millipore Sigma, cat. no. D5758-25ML) | <span class="caution">CAUTION:</span> Handle DEPC, and samples containing it, in a fume hood.   |
 | Sucrose | (VWR, cat. no. 97061-428) |   |
@@ -105,8 +105,6 @@ Main reference is [@martinOptimizedSinglenucleus2023]. All modifications/improve
 | Qubit double-stranded DNA high-sensitivity quantitation kit | (Thermo, cat. no. Q32851) |     |
 | sci-RNA-seq3 indexed primer plates at 10 &mu;M dilution (standard desalting for purification; random bases do not need hand-mixing). |   The plates include the following:<ul><li> Plate(s) of indexed oligo-dT RT primers (<span class="sequence">5'-/5Phos/CAGAGCNNNNNNNN[10bpRTindex]TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT-3'</span>, where ‘N’ is any base; IDT)</li><li>Plate(s) of indexed ligation primers (<span class="sequence">5'-GCTCTG[9- or 10-bp ligation index] TACGACGCTCTTCCGATCT[reverse complement of ligation index]-3'</span>)</li><li>Plate of indexed PCR P7 primers (<span class="sequence">5'-CAAGCAGAAGACGGCATACGAGAT[PCR P7 index]GTCTCGTGGGCTCGG-3'</span>; IDT)</li><li>Plate of PCR P5 primers (this primer does not need to be indexed if you do only one plate of PCR) (<span class="sequence">5'-AATGATACGGCGACCACCGAGATCTACAC[PCR P5 index]ACACTCTTTCCCTA-CACGACGCTCTTCCGATCT-3'</span>; IDT). | \**These are modified from sci-RNA-SeqV3** |
 
-## Buffers and Solutions
-
 ## Equipment
 Equipment
 - Hammer
@@ -124,19 +122,19 @@ Equipment
 - Cell counter with GFP channel, or a hemocytometer and an inverted microscope that allows visualization with GFP
 - Electrophoresis chambers for PAGE and agarose gels
 
-## Reagent setup
+## Buffers and Solutions
 ### 10× PBS-hypotonic stock solution
 Mix 5.45 g of Na2HPO4 (dibasic), 3.1 g of NaH2PO4·H20, 1.2 g of KH2PO4, 1 g of KCl and 3 g of NaCl in nuclease-free water and bring to a final volume of 500 ml. This stock solution will have a pH of ~6.8, but when diluted to 1×, should end up at pH 7.0–7.4. The buffer can be stored at room temperature (20–23 °C) for 6 months.
 
 ### Hypotonic lysis buffer solution A
-This buffer is used for whole mouse embryos E16.5 and older. Mix 5 ml of the 10× PBS-hypotonic stock solution, 5.7 g of sucrose, 75 &mu;l of 2 M MgCl2 and nuclease-free water to a final volume of 50 ml to make the lysis base solution. Right before lysis, for every 1 ml of lysis buffer needed, add 2.5 &mu;l of 10% (vol/vol) igepal (vol/vol) and 10 &mu;l of DEPC and then vortex the solution to disperse the DEPC throughout. For example, if a sample needs 5 ml of lysis buffer, take a 5-ml aliquot of lysis buffer stock solution and add 12.5 &mu;l of 10% (vol/vol) igepal and 50 &mu;l of DEPC. Keep the buffer on ice. Make fresh for each experiment. 
+This buffer is used for whole mouse embryos E16.5 and older. Mix 5 ml of the 10× PBS-hypotonic stock solution, 5.7 g of sucrose, 75 &mu;l of 2 M MgCl2 and nuclease-free water to a final volume of 50 ml to make the lysis base solution. Right before lysis, for every 1 ml of lysis buffer needed, add 2.5 &mu;l of 10% (vol/vol) IGEPAL (vol/vol) and 10 &mu;l of DEPC and then vortex the solution to disperse the DEPC throughout. For example, if a sample needs 5 ml of lysis buffer, take a 5-ml aliquot of lysis buffer stock solution and add 12.5 &mu;l of 10% (vol/vol) IGEPAL and 50 &mu;l of DEPC. Keep the buffer on ice. Make fresh for each experiment. 
 
 <span class="caution">CAUTION:</span> DEPC needs to be used in a fume hood. <br>
 
 <span class="critical">CRITICAL:</span>  DEPC has a short half-life in aqueous solutions, so adding it to the buffer just before the cells are added is important.
 
 ### Hypotonic lysis buffer solution B
-This buffer is used for Tiny-Sci, cell lines, mouse embryos under E16.5 and isolated tissues. Mix 5 ml of the 10× PBS-hypotonic stock solution, 75 &mu;l of 2 M MgCl2 and nuclease-free water to a final volume of 50 ml to make the lysis base solution. Right before lysis, for every 1 ml of lysis buffer needed, add 40 &mu;l of BSA (20 mg/ml), 2.5 &mu;l of 10% (vol/vol) igepal and 10 &mu;l of DEPC and then vortex the solution to disperse the DEPC throughout. For example, if a sample needs 5 ml of lysis buffer, take a 5-ml aliquot of lysis buffer base solution and add 200 &mu;l of BSA, 12.5 &mu;l of 10% (vol/vol) igepal and 50&mu;l of DEPC. Keep the buffer on ice. Make fresh for each experiment.
+This buffer is used for Tiny-Sci, cell lines, mouse embryos under E16.5 and isolated tissues. Mix 5 ml of the 10× PBS-hypotonic stock solution, 75 &mu;l of 2 M MgCl2 and nuclease-free water to a final volume of 50 ml to make the lysis base solution. Right before lysis, for every 1 ml of lysis buffer needed, add 40 &mu;l of BSA (20 mg/ml), 2.5 &mu;l of 10% (vol/vol) IGEPAL and 10 &mu;l of DEPC and then vortex the solution to disperse the DEPC throughout. For example, if a sample needs 5 ml of lysis buffer, take a 5-ml aliquot of lysis buffer base solution and add 200 &mu;l of BSA, 12.5 &mu;l of 10% (vol/vol) IGEPAL and 50&mu;l of DEPC. Keep the buffer on ice. Make fresh for each experiment.
 
 <span class="caution">CAUTION:</span> DEPC needs to be used in a fume hood. <br>
 
@@ -163,11 +161,10 @@ To 38.75 ml of nuclease-free water, add 1ml of 1M Tris pH7.6, 250&mu;l of 2M MgC
 ### Indexed primer plates
 Primers for reverse transcription, ligation and PCR indexing steps are ordered at 100 &mu;M. Working dilutions are made to 10 &mu;M in EB (10 mM Tris-Cl pH 8.5) and kept at 4 °C for &le;6 months. 
 
-<span class="critical">CRITICAL:</span>  Spin the primer plates down before opening, but do not spin the plates with nuclei until
-the second-strand synthesis stage (Step 50).
+<span class="critical">CRITICAL:</span>  Spin the primer plates down before opening, but do not spin the plates with nuclei until the second-strand synthesis stage.
 
-### 10% (vol/vol) igepal
-Dilute 5 ml of igepal in 45 ml of nuclease-free water. Store at room temperature for &le;6 months.
+### 10% (vol/vol) IGEPAL
+Dilute 5 ml of IGEPAL in 45 ml of nuclease-free water. Store at room temperature for &le;6 months.
 
 ### 10% (vol/vol) Triton X-100
 Dilute 5 ml of Triton X-100 in 45 ml of nuclease-free water. Store at room temperature for &le;6 months.
@@ -181,54 +178,49 @@ Add 7 ml of water to a bottle of lyophilized Qiagen protease (Qiagen, cat. no. 1
 <span class="critical">CRITICAL:</span>  This must be the specified protease, not proteinase K.
 
 # Protocol
-
 ## Nuclei isolation
 
-<span class="timing">Timing: 2 h</span>
+<span class="timing">Timing: 2 h</span> <br>
 
+<span class="critical">CRITICAL:</span> Keep everything cold and on ice at all times. Pre-cool tubes on ice before adding cells/nuclei. <br>
 
-<span class="critical">CRITICAL:</span> Keep everything cold and on ice at all times. Pre-cool tubes on ice before adding cells/nuclei.
-
-<span class="critical">CRITICAL:</span> LoBind (DNA/RNA) microcentrifuge tubes are preferred for all steps in which they are used for collecting nuclei.
-
+<span class="critical">CRITICAL:</span> LoBind (DNA/RNA) microcentrifuge tubes are preferred for all steps in which they are used for collecting nuclei. <br>
 
 1. Prepare two ice buckets with wet ice, a bucket with crushed dry ice to hold your frozen tissues, and a thick, flat slab of dry ice for smashing tissues. Pre-cool both a centrifuge that will hold 50-ml tubes and a microcentrifuge to 4 °C.
 
 2. Determine how much lysis buffer you will need for the tissue you will be processing. (For extremely small samples, skip to Box 1: Tiny-Sci.) An E13.5 mouse embryo (~200 mg) requires 5 ml of lysis buffer. An E16.5 embryo (~500 mg) will need 20 ml. An adult mouse heart needs 5 ml. Adult mouse kidneys need 5 ml per kidney. Adult mouse liver needs 20 ml. Adult mouse pancreas needs 15 ml. Adult tissues and tissues high in RNases will necessitate a bigger lysis volume. The buffer is inexpensive to make, so do not worry about using too much.
 
-<span class="caution">CAUTION:</span> DEPC is flammable and toxic. Avoid breathing vapors. The following steps should be performed in the chemical hood from this point until the DEPC is washed from the sample (Step 17).
+<span class="caution">CAUTION:</span> DEPC is flammable and toxic. Avoid breathing vapors. The following steps should be performed in the chemical hood from this point until the DEPC is washed from the sample.
 
-3. For every 1 ml of lysis buffer needed, add 2.5 μl of 10% (vol/vol) IGEPAL and 10 μl of DEPC to the hypotonic lysis buffer solution (and 40 μl of BSA if using lysis buffer B) and then vortex the solution to disperse the DEPC throughout. Have complete lysis buffer in a 50-ml tube for each sample on ice ready to go.
+1. For every 1 ml of lysis buffer needed, add 2.5 μl of 10% (vol/vol) IGEPAL and 10 μl of DEPC to the hypotonic lysis buffer solution (and 40 μl of BSA if using lysis buffer B) and then vortex the solution to disperse the DEPC throughout. Have complete lysis buffer in a 50-ml tube for each sample on ice ready to go.
 
-4. Fold a piece of aluminum foil four times so that you have a small pouch with eight layers of foil on each side. Place this on a slab of dry ice to chill.
+2. Fold a piece of aluminum foil four times so that you have a small pouch with eight layers of foil on each side. Place this on a slab of dry ice to chill.
 
-5. Place your frozen tissue inside this foil and hold it firmly closed on the dry ice and smash it with a hammer (Fig. 4 and Supplementary Video 1). You want to be gentle enough not to tear the foil, but thorough enough to make a powder of the tissue. Do not let the tissue thaw.
+3. Place your frozen tissue inside this foil and hold it firmly closed on the dry ice and smash it with a hammer (Fig. 4 and Supplementary Video 1). You want to be gentle enough not to tear the foil, but thorough enough to make a powder of the tissue. Do not let the tissue thaw.
 
-6. Use the foil to guide your powdered tissue into the tube of the lysis buffer. It will stick a bit; pipette some of the lysis buffer from the tube to rinse the sample from the foil into the tube. Try to make sure that the sample is thawing only if it is in the lysis buffer.
+4. Use the foil to guide your powdered tissue into the tube of the lysis buffer. It will stick a bit; pipette some of the lysis buffer from the tube to rinse the sample from the foil into the tube. Try to make sure that the sample is thawing only if it is in the lysis buffer.
 
-7. Cap the 50-ml tube and shake it to disperse the chunks in the buffer. Let it sit on ice for 10 min. Triturate the chunks with a 1-ml pipette tip to help tease them apart a bit.
+5. Cap the 50-ml tube and shake it to disperse the chunks in the buffer. Let it sit on ice for 10 min. Triturate the chunks with a 1-ml pipette tip to help tease them apart a bit.
 
-8. Set up another 50-ml tube on ice with a 40-μm cell strainer on top. Pour your lysate through that; there will still be a lot of chunks. Use a disposable pestle to coax the tissue through the filter. Do not worry about getting all of it through.
+6. Set up another 50-ml tube on ice with a 40-μm cell strainer on top. Pour your lysate through that; there will still be a lot of chunks. Use a disposable pestle to coax the tissue through the filter. Do not worry about getting all of it through.
 
-9. Take a 45-μl sample of the filtered lysate and check for RNase activity with the IDT RNaseAlert kit. The RNaseAlert test will guide you on whether to proceed or not. There should not be any RNase detected, and if there is, you will have to restart with a new sample and adjust either the sample size or the volume of lysis buffer
+7. Take a 45-μl sample of the filtered lysate and check for RNase activity with the IDT RNaseAlert kit. The RNaseAlert test will guide you on whether to proceed or not. There should not be any RNase detected, and if there is, you will have to restart with a new sample and adjust either the sample size or the volume of lysis buffer
 
-10. While the RNaseAlert sample is incubating, spin down the remainder of the lysate (500g, 3 min, 4 °C).  Keep the nuclei in the 50-ml tube.  Resuspend the nuclei in 1 ml of 0.3 M SPBSTM with 10 μl of DEPC added (or more buffer if there are a lot of nuclei—roughly 1 ml of buffer per 200-500 mg of starting material at minimum).
-
-**_Tiny-Sci (optional approach)_**
+8.  While the RNaseAlert sample is incubating, spin down the remainder of the lysate (500g, 3 min, 4 °C).  Keep the nuclei in the 50-ml tube.  Resuspend the nuclei in 1 ml of 0.3 M SPBSTM with 10 μl of DEPC added (or more buffer if there are a lot of nuclei—roughly 1 ml of buffer per 200-500 mg of starting material at minimum).
 
 <span class="timing">Timing 1 h</span>
 
-### Procedure
+### **_Tiny-Sci (optional approach)_**
 
 1. Samples should be no more than 2-3 mm in size, should be frozen individually in a microcentrifuge tube and kept on dry ice until lysis. The key to these small samples is to limit pipetting  and tube transfers that will leave behind precious nuclei.
 
 2. You will need 100 μl of lysis buffer B per embryo, but make up enough for several samples.
 
-3. Right before lysis, for every 1 ml of lysis buffer needed, add 2.5 μl of 10% (vol/vol) igepal, 40 μl of BSA (20 mg/ml) and 10 μl of DEPC and then vortex the solution to disperse the DEPC throughout. 
+3. Right before lysis, for every 1 ml of lysis buffer needed, add 2.5 μl of 10% (vol/vol) IGEPAL, 40 μl of BSA (20 mg/ml) and 10 μl of DEPC and then vortex the solution to disperse the DEPC throughout. 
   
 <span class="caution">CAUTION:</span> You must work in the hood because the DEPC is toxic.
 
-4. Add 100 μl of complete lysis buffer (with BSA/DEPC/igepal) to the tube with the frozen embryo and make sure that the embryo is actually in the buffer. Let it sit a couple of minutes on ice and then triturate the embryo slowly and gently with a pipette set to 50 μl with a yellow (200 μl) tip. You should not see any chunks left. Lysis time is only ~5 min.
+4. Add 100 μl of complete lysis buffer (with BSA/DEPC/IGEPAL) to the tube with the frozen embryo and make sure that the embryo is actually in the buffer. Let it sit a couple of minutes on ice and then triturate the embryo slowly and gently with a pipette set to 50 μl with a yellow (200 μl) tip. You should not see any chunks left. Lysis time is only ~5 min.
 
 5. (Optional) You can take 1 μl of this and mix it with 9 μl of diluted Yoyo dye to quickly check under a microscope with a GFP filter to make sure that you are seeing intact, separate nuclei.
 
@@ -247,7 +239,7 @@ Add 7 ml of water to a bottle of lyophilized Qiagen protease (Qiagen, cat. no. 1
 12. Fill up the plate with more embryos or some other nuclei of which you have a lot and continue with the sci procedure at Step 24 of the reverse
 transcription.
 
-##_ Nuclei/Cell Fixati_on
+## Nuclei/Cell Fixation
 
 <span class="timing">Timing: 1 h</span>
 
@@ -259,13 +251,13 @@ transcription.
 
 <span class="pause">PAUSE POINT</span> Fixed samples may be held here prior to rehydration. To pause, add 0.1 volume of 1M glycine pH 8.5 to quench DSP. Store at −80°C
 
-4. Add 2 volumes of 0.3 M SPBSTM **(or PBS-T if using cells)** gradually, 2–3 ml at a time, swirling between additions to rehydrate the nuclei. For instance, with 1 ml of nuclei and 4 ml of fixative, you would need 10 ml of buffer to rehydrate.
+4. Add 2 volumes of 0.3 M SPBSTM **_(or PBS-T if using cells)_** gradually, 2–3 ml at a time, swirling between additions to rehydrate the nuclei. For instance, with 1 ml of nuclei and 4 ml of fixative, you would need 10 ml of buffer to rehydrate.
 
-5. Spin down the nuclei at 1000g for 2 min at 4 °C.
+5. Spin down the nuclei at 1,000g for 2 min at 4 °C.
 
 6. Carefully remove the supernatant and dispose properly. The nuclei pellet is at the bottom and should look a little white-ish from the DSP.
 
-7. Resuspend the nuclei in ≥1 ml of 0.3 M SPBSTM **(or PBS-T if using cells)**. Triturate gently with a pipette tip to separate nuclei.
+7. Resuspend the nuclei in ≥1 ml of 0.3 M SPBSTM **_(or PBS-T if using cells)_**. Triturate gently with a pipette tip to separate nuclei.
 
 8. Divide fixed nuclei into aliquots of ~2 million nuclei (Fig. 5) in microcentrifuge tubes. Spin at 500g for 3 min at 4 °C and remove and discard the supernatant. Continue with the protocol or snap-freeze tubes in liquid nitrogen and store at −80 °C.
 
