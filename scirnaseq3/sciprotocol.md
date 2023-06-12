@@ -30,35 +30,30 @@ Author: Chaichontat Sriworarat
   font-family: monospace;
 }
 
+.buffer{
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
 </style>
 
 Main reference is [@martinOptimizedSinglenucleus2023]. All modifications/improvements are derivative of this base protocol.
 
-# Table of Content
-- [Table of Content](#table-of-content)
+# Table of Contents
+- [Table of Contents](#table-of-contents)
 - [Preparation](#preparation)
   - [Materials and Reagents](#materials-and-reagents)
   - [Equipment](#equipment)
   - [Buffers and Solutions](#buffers-and-solutions)
-    - [10× PBS-hypotonic stock solution](#10-pbs-hypotonic-stock-solution)
-    - [Hypotonic lysis buffer solution A](#hypotonic-lysis-buffer-solution-a)
-    - [Hypotonic lysis buffer solution B](#hypotonic-lysis-buffer-solution-b)
-    - [0.3 M SPBSTM (sucrose PBS TritonX MgCl2)](#03-m-spbstm-sucrose-pbs-tritonx-mgcl2)
-    - [DSP 50 mg/ml stock](#dsp-50-mgml-stock)
-    - [Yoyo-1 dye for counting](#yoyo-1-dye-for-counting)
-    - [Annealed N7 oligos](#annealed-n7-oligos)
-    - [N7-loaded Tn5](#n7-loaded-tn5)
-    - [Tagment DNA buffer (2×)](#tagment-dna-buffer-2)
-    - [Indexed primer plates](#indexed-primer-plates)
-    - [10% (vol/vol) IGEPAL](#10-volvol-igepal)
-    - [10% (vol/vol) Triton X-100](#10-volvol-triton-x-100)
-    - [10% (vol/vol) Tween 20](#10-volvol-tween-20)
-    - [Protease](#protease)
 - [Protocol](#protocol)
   - [Nuclei isolation](#nuclei-isolation)
     - [**_Tiny-Sci (optional approach)_**](#tiny-sci-optional-approach)
   - [Nuclei/Cell Fixation](#nucleicell-fixation)
   - [Reverse Transcription](#reverse-transcription)
+  - [Ligation](#ligation)
+  - [Final distribution](#final-distribution)
+  - [Second-strand synthesis](#second-strand-synthesis)
+  - [Protease Digestion](#protease-digestion)
   - [Tagmentation](#tagmentation)
   - [Library Amplification](#library-amplification)
     - [Concentration of library and agarose gel purification.](#concentration-of-library-and-agarose-gel-purification)
@@ -123,56 +118,56 @@ Equipment
 - Electrophoresis chambers for PAGE and agarose gels
 
 ## Buffers and Solutions
-### 10× PBS-hypotonic stock solution
+<span class="buffer">10× PBS-hypotonic stock solution</span><br>
 Mix 5.45 g of Na2HPO4 (dibasic), 3.1 g of NaH2PO4·H20, 1.2 g of KH2PO4, 1 g of KCl and 3 g of NaCl in nuclease-free water and bring to a final volume of 500 ml. This stock solution will have a pH of ~6.8, but when diluted to 1×, should end up at pH 7.0–7.4. The buffer can be stored at room temperature (20–23 °C) for 6 months.
 
-### Hypotonic lysis buffer solution A
+<span class="buffer">Hypotonic lysis buffer solution A</span><br>
 This buffer is used for whole mouse embryos E16.5 and older. Mix 5 ml of the 10× PBS-hypotonic stock solution, 5.7 g of sucrose, 75 &mu;l of 2 M MgCl2 and nuclease-free water to a final volume of 50 ml to make the lysis base solution. Right before lysis, for every 1 ml of lysis buffer needed, add 2.5 &mu;l of 10% (vol/vol) IGEPAL (vol/vol) and 10 &mu;l of DEPC and then vortex the solution to disperse the DEPC throughout. For example, if a sample needs 5 ml of lysis buffer, take a 5-ml aliquot of lysis buffer stock solution and add 12.5 &mu;l of 10% (vol/vol) IGEPAL and 50 &mu;l of DEPC. Keep the buffer on ice. Make fresh for each experiment. 
 
 <span class="caution">CAUTION:</span> DEPC needs to be used in a fume hood. <br>
 
 <span class="critical">CRITICAL:</span>  DEPC has a short half-life in aqueous solutions, so adding it to the buffer just before the cells are added is important.
 
-### Hypotonic lysis buffer solution B
+<span class="buffer">Hypotonic lysis buffer solution B</span><br>
 This buffer is used for Tiny-Sci, cell lines, mouse embryos under E16.5 and isolated tissues. Mix 5 ml of the 10× PBS-hypotonic stock solution, 75 &mu;l of 2 M MgCl2 and nuclease-free water to a final volume of 50 ml to make the lysis base solution. Right before lysis, for every 1 ml of lysis buffer needed, add 40 &mu;l of BSA (20 mg/ml), 2.5 &mu;l of 10% (vol/vol) IGEPAL and 10 &mu;l of DEPC and then vortex the solution to disperse the DEPC throughout. For example, if a sample needs 5 ml of lysis buffer, take a 5-ml aliquot of lysis buffer base solution and add 200 &mu;l of BSA, 12.5 &mu;l of 10% (vol/vol) IGEPAL and 50&mu;l of DEPC. Keep the buffer on ice. Make fresh for each experiment.
 
 <span class="caution">CAUTION:</span> DEPC needs to be used in a fume hood. <br>
 
 <span class="critical">CRITICAL:</span> DEPC has a short half-life in aqueous solutions, so adding it to the buffer just before the cells are added is important.
 
-### 0.3 M SPBSTM (sucrose PBS TritonX MgCl2)
+<span class="buffer">0.3 M SPBSTM (sucrose PBS TritonX MgCl2)</span><br>
 This is the main buffer used throughout the protocol for washing and diluting nuclei. Dissolve 28.5 g of sucrose in 25 ml of 10× DPBS (regular DPBS, not the hypotonic version) and 125 ml of nuclease- free water (about half the volume of water that you will need). Once the sucrose has dissolved, add 2.5 ml of 10% (vol/vol) Triton X-100, 375 &mu;l of 2 M MgCl2 and more water to the final volume of 250 ml. Store this buffer at 4 °C for &le;3 months.
 
-### DSP 50 mg/ml stock
+<span class="buffer">DSP 50 mg/ml stock</span><br>
 Dissolve a 50-mg vial of DSP in 1 ml of anhydrous DMSO (use a new vial of DMSO), because DSP will precipitate in aqueous solutions. Dissolved DSP should be used immediately.
 
-### Yoyo-1 dye for counting
+<span class="buffer">Yoyo-1 dye for counting</span><br>
 Dilute 1 &mu;l of Yoyo-1 dye in 1 ml of 0.3 M SPBSTM in a dark or amber microcentrifuge tube and store the reagent at 4 °C for &le;3 months. This will be used to dilute nuclei for counting.
 
-### Annealed N7 oligos
+<span class="buffer">Annealed N7 oligos</span><br>
 The annealed N7 oligos are Tn5-N7 (<span class="sequence">5'-GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG-3'</span>) and ME (<span class="sequence">5'-[phos]CTGTCTCTTATACACATCT-3'</span>). Resuspend both oligos to 100 &mu;M in annealing buffer (50 mM NaCl, 40 mM Tris-HCl pH 8.0). Mix one volume of Tn5-N7 with one volume of ME. This creates a working stock at 50 &mu;M. Anneal them with the following PCR program: 95 °C for 5 min, cool to 65 °C (0.1 °C/s), 65 °C for 5 min, cool to 4 °C (0.1 °C/s). Store annealed oligos at 4 °C for 6 months or divide them into aliquots and freeze them at 20 °C for &le;1 year.
 
-### N7-loaded Tn5
+<span class="buffer">N7-loaded Tn5</span><br>
 To 20 &mu;l of Tn5, add 20 &mu;l of annealed N7 oligos. Place in a thermomixer and shake at 350 rpm and 23 °C for 30 min. Add 20 &mu;l of glycerol. Store at -20 °C for &le;6 months.
 
-### Tagment DNA buffer (2×)
+<span class="buffer">Tagment DNA buffer (2×)</span><br>
 To 38.75 ml of nuclease-free water, add 1ml of 1M Tris pH7.6, 250&mu;l of 2M MgCl<sub>2</sub> and 10 ml of dimethylformamide. The final volume is 50 ml. Make 550 &mu;l aliquots and store them at -20 °C for &le;6 months.
 
-### Indexed primer plates
+<span class="buffer">Indexed primer plates</span><br>
 Primers for reverse transcription, ligation and PCR indexing steps are ordered at 100 &mu;M. Working dilutions are made to 10 &mu;M in EB (10 mM Tris-Cl pH 8.5) and kept at 4 °C for &le;6 months. 
 
 <span class="critical">CRITICAL:</span>  Spin the primer plates down before opening, but do not spin the plates with nuclei until the second-strand synthesis stage.
 
-### 10% (vol/vol) IGEPAL
+<span class="buffer">10% (vol/vol) IGEPAL</span><br>
 Dilute 5 ml of IGEPAL in 45 ml of nuclease-free water. Store at room temperature for &le;6 months.
 
-### 10% (vol/vol) Triton X-100
+<span class="buffer">10% (vol/vol) Triton X-100</span><br>
 Dilute 5 ml of Triton X-100 in 45 ml of nuclease-free water. Store at room temperature for &le;6 months.
 
-### 10% (vol/vol) Tween 20
+<span class="buffer">10% (vol/vol) Tween 20</span><br>
 Dilute 5 ml of Tween 20 in 45 ml of nuclease-free water. Store at room temperature for &le;6 months.
 
-### Protease
+<span class="buffer">Protease</span><br>
 Add 7 ml of water to a bottle of lyophilized Qiagen protease (Qiagen, cat. no. 19157). Make 200-&mu;l aliquots and store them at -20 °C for &le;6 months. Do not freeze–thaw. 
 
 <span class="critical">CRITICAL:</span>  This must be the specified protease, not proteinase K.
@@ -312,7 +307,7 @@ because it will undo the DSP cross-links (it is not necessary for the RT to work
 12. Combine tubes and wash once more in 1 ml of cold 0.3 M SPBSTM. Spin at 500g for 3 min at 4 °C.
 Remove and discard the supernatant.
 
-##_ Ligati_on
+## Ligation
 
 <span class="timing">Timing: 1.5 h</span>
 
@@ -338,7 +333,7 @@ Remove and discard the supernatant.
 12. Combine the two tubes and wash twice more with 1 ml of 0.3 M SPBSTM per wash.
 13. Resuspend in 1 ml of 0.3 M SPBSTM to count. If nuclei are clumpy and cannot be teased apart with gentle pipetting, sonicate on low intensity for 6 s only at 4 °C and recount. Note that this is a shorter sonication step than before.
 
-##_ Final distributi_on
+## Final distribution
 
 <span class="timing">Timing: 1 h</span>
 
@@ -353,7 +348,7 @@ Sort if possible.
 
 <span class="pause">PAUSE POINT</span> Plates may be kept frozen at -80 °C for &le;6 months.
 
-##_ Second-strand synthesi_s 
+## Second-strand synthesis 
 
 <span class="timing">Timing: 3 h (or overnight)</span>
 
@@ -371,7 +366,7 @@ Sort if possible.
 
 <span class="pause">PAUSE POINT</span> Keep the plate at 4 °C for &le;24 h.
 
-##_ Protease Digesti_on
+## Protease Digestion
 
 <span class="timing">Timing: 2 h</span>
 
