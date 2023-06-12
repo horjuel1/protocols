@@ -45,9 +45,9 @@ Main reference is [@martinOptimizedSinglenucleus2023]. All modifications/improve
 
 |Reagent | Vendor | Notes|
 |--------|--------|------|
-| DSP | (Lomant’s reagent; Thermo Fisher, cat. no. 22586 or PG82081) | <span style="color: #702963;">**CRITICAL:**</span>  DSP is sensitive to water and should be used immediately after dissolving in dimethyl sulfoxide (DMSO) |
+| DSP | (Lomant’s reagent; Thermo Fisher, cat. no. 22586 or PG82081) | **<span style="color: #702963;">CRITICAL:</span>**  DSP is sensitive to water and should be used immediately after dissolving in dimethyl sulfoxide (DMSO) |
 | Methanol | (Millipore Sigma, cat. no. 494437-2L) |     |
-| DMSO | (Millipore Sigma, cat. no. D2438-5X10ML) | <span style="color: #702963;">**CRITICAL:**</span>  DMSO used for dissolving DSP should be new and unopened so that water is not introduced. These smaller bottles are useful for this reason.     |
+| DMSO | (Millipore Sigma, cat. no. D2438-5X10ML) | **<span style="color: #702963;">CRITICAL:</span>**  DMSO used for dissolving DSP should be new and unopened so that water is not introduced. These smaller bottles are useful for this reason.     |
 | Sodium phosphate dibasic | (Millipore Sigma, cat. no. S3264-250G) |   |
 | Sodium phosphate monobasic monohydrate | (Millipore Sigma, cat. no. 71507-250G) |    |
 | Potassium phosphate monobasic | (Millipore Sigma, cat. no. P9791-100G) |    |
@@ -63,7 +63,7 @@ Main reference is [@martinOptimizedSinglenucleus2023]. All modifications/improve
 | 10× Dulbecco’s PBS | (10× DPBS; Thermo Fisher, cat. no. 14200075) |   |
 | Superscript IV reverse transcriptase | (Thermo Fisher, cat. no. 18090200) |    |
 | T4 DNA Ligase | (New England Biolabs, cat. no. M0202L) |     |
-| Tagmentase (Tn5 transposase) , unloaded | (Diagenode, cat. no. C01070010-20) | <span style="color: #702963;">**CRITICAL:**</span> The amount of tagmentase added to Step 57 has been determined for this brand only.   |
+| Tagmentase (Tn5 transposase) , unloaded | (Diagenode, cat. no. C01070010-20) | **<span style="color: #702963;">CRITICAL:</span>** The amount of tagmentase added to Step 57 has been determined for this brand only.   |
 | Tn5-N7 oligo | (5'-GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG-3', high-purity salt-free; Eurofins) |     |
 | Mosaic End (ME) oligo | (5'-/5Phos/CTGTCTCTTATACACATCT-3', high-purity salt-free; Eurofins) |   |
 | NEBNext mRNA second-strand synthesis module | (New England Biolabs, cat. no. E6111L) |     |
@@ -74,7 +74,7 @@ Main reference is [@martinOptimizedSinglenucleus2023]. All modifications/improve
 | RNaseAlert kit | (IDT, cat. no. 11-02-01-02) |   |
 | RNaseZap | (Thermo Fisher, cat. no. AM9780) |    |
 | Elution buffer | (EB, 10 mM Tris pH 8.5; Qiagen, cat. no. 19086) |    |
-| Protease | (Qiagen, cat. no. 19157) | <span style="color: #702963;">**CRITICAL:**</span>  Do not use any other protease/proteinase. This one can be heat-inactivated at the temperature and time listed in the protocol. |
+| Protease | (Qiagen, cat. no. 19157) | **<span style="color: #702963;">CRITICAL:</span>**  Do not use any other protease/proteinase. This one can be heat-inactivated at the temperature and time listed in the protocol. |
 | 6% TBE Novex PAGE gels | (10 wells; Thermo Fisher, cat. no. EC6262BOX) |    |
 | UltraPure agarose | (Thermo Fisher, cat. no. 16500-500) |    |
 | Qubit double-stranded DNA high-sensitivity quantitation kit | (Thermo, cat. no. Q32851) |     |
@@ -87,7 +87,7 @@ Main reference is [@martinOptimizedSinglenucleus2023]. All modifications/improve
 Mix 5.45 g of Na2HPO4 (dibasic), 3.1 g of NaH2PO4·H20, 1.2 g of KH2PO4, 1 g of KCl and 3 g of NaCl in nuclease-free water and bring to a !nal volume of 500 ml. This stock solution will have a pH of ~6.8, but when diluted to 1×, should end up at pH 7.0–7.4. The buffer can be stored at room temperature (20–23 °C) for 6 months.
 
 #### Hypotonic lysis buffer solution A
-This buffer is used for whole mouse embryos E16.5 and older. Mix 5 ml of the 10× PBS-hypotonic stock solution, 5.7 g of sucrose, 75 &mu;l of 2 M MgCl2 and nuclease-free water to a !nal volume of 50 ml to make the lysis base solution. Right before lysis, for every 1 ml of lysis buffer needed, add 2.5 &mu;l of 10% (vol/vol) igepal (vol/vol) and 10 &mu;l of DEPC and then vortex the solution to disperse the DEPC throughout. For example, if a sample needs 5 ml of lysis buffer, take a 5-ml aliquot of lysis buffer stock solution and add 12.5 &mu;l of 10% (vol/vol) igepal and 50 &mu;l of DEPC. Keep the buffer on ice. Make fresh for each experiment. ! CAUTION DEPC needs to be used in a fume hood. <span style="color: #702963;">**CRITICAL:**</span>  DEPC has a short half-life in aqueous solutions, so adding it to the buffer just before the cells are added is important.
+This buffer is used for whole mouse embryos E16.5 and older. Mix 5 ml of the 10× PBS-hypotonic stock solution, 5.7 g of sucrose, 75 &mu;l of 2 M MgCl2 and nuclease-free water to a !nal volume of 50 ml to make the lysis base solution. Right before lysis, for every 1 ml of lysis buffer needed, add 2.5 &mu;l of 10% (vol/vol) igepal (vol/vol) and 10 &mu;l of DEPC and then vortex the solution to disperse the DEPC throughout. For example, if a sample needs 5 ml of lysis buffer, take a 5-ml aliquot of lysis buffer stock solution and add 12.5 &mu;l of 10% (vol/vol) igepal and 50 &mu;l of DEPC. Keep the buffer on ice. Make fresh for each experiment. ! CAUTION DEPC needs to be used in a fume hood. **<span style="color: #702963;">CRITICAL:</span>**  DEPC has a short half-life in aqueous solutions, so adding it to the buffer just before the cells are added is important.
 
 #### Hypotonic lysis buffer solution B
 This buffer is used for Tiny-Sci, cell lines, mouse embryos under E16.5 and isolated tissues. Mix 5 ml of the 10× PBS-hypotonic stock solution, 75 &mu;l of 2 M MgCl2 and nuclease-free water to a !nal volume of 50 ml to make the lysis base solution. Right before lysis, for every 1 ml of lysis buffer needed, add 40 &mu;l of BSA (20 mg/ml), 2.5 &mu;l of 10% (vol/vol) igepal and 10 &mu;l of DEPC and then vortex the solution to disperse the DEPC throughout. For example, if a sample needs 5 ml of lysis buffer, take a 5-ml aliquot of lysis buffer base solution and add 200 &mu;l of BSA, 12.5 &mu;l of 10% (vol/vol) igepaland50&mu;lofDEPC.Keepthebufferonice.Makefreshforeachexperiment.!CAUTION DEPC needs to be used in a fume hood. CRITICAL DEPC has a short half-life in aqueous solutions, so adding it to the buffer just before the cells are added is important.
@@ -111,7 +111,7 @@ To 20 &mu;l of Tn5, add 20 &mu;l of annealed N7 oligos. Place in a thermomixer a
 To38.75mlofnuclease-freewater,add1mlof1MTrispH7.6,250&mu;lof2MMgCl2 and10mlof dimethylformamide. The !nal volume is 50 ml. Make 550-&mu;l aliquots and store them at !20 °C for à6 months.
 
 #### Indexed primer plates
-Primers for reverse transcription, ligation and PCR indexing steps are ordered at 100 !M. Working dilutions are made to 10 !M in EB (10 mM Tris-Cl pH 8.5) and kept at 4 °C for à6 months. <span style="color: #702963;">**CRITICAL:**</span>  Spin the primer plates down before opening, but do not spin the plates with nuclei until
+Primers for reverse transcription, ligation and PCR indexing steps are ordered at 100 !M. Working dilutions are made to 10 !M in EB (10 mM Tris-Cl pH 8.5) and kept at 4 °C for à6 months. **<span style="color: #702963;">CRITICAL:</span>**  Spin the primer plates down before opening, but do not spin the plates with nuclei until
 the second-strand synthesis stage (Step 50).
 
 #### 10% (vol/vol) igepal
@@ -124,19 +124,19 @@ Dilute 5 ml of Triton X-100 in 45 ml of nuclease-free water. Store at room tempe
 Dilute 5 ml of Tween 20 in 45 ml of nuclease-free water. Store at room temperature for à6 months.
 
 #### Protease
-Add 7 ml of water to a bottle of lyophilized Qiagen protease (Qiagen, cat. no. 19157). Make 200-&mu;l aliquots and store them at !20 °C for à6 months. Do not freeze–thaw. <span style="color: #702963;">**CRITICAL:**</span>  This must be the speci!ed protease, not proteinase K.
+Add 7 ml of water to a bottle of lyophilized Qiagen protease (Qiagen, cat. no. 19157). Make 200-&mu;l aliquots and store them at !20 °C for à6 months. Do not freeze–thaw. **<span style="color: #702963;">CRITICAL:</span>**  This must be the speci!ed protease, not proteinase K.
 
 # Protocol
 
 ## Nuclei isolation
 
-<span style="color: #6495ED;">**Timing: 2 h**</span>
+**<span style="color: #6495ED;">Timing: 2 h</span>**
 
 
-<span style="color: #702963;">**CRITICAL:**</span> Keep everything cold and on ice at all times. Pre-cool tubes on ice before adding cells/nuclei.
+**<span style="color: #702963;">CRITICAL:</span>** Keep everything cold and on ice at all times. Pre-cool tubes on ice before adding cells/nuclei.
 
 
-<span style="color: #702963;">**CRITICAL:**</span> LoBind (DNA/RNA) microcentrifuge tubes are preferred for all steps in which they are used for collecting nuclei.
+**<span style="color: #702963;">CRITICAL:</span>** LoBind (DNA/RNA) microcentrifuge tubes are preferred for all steps in which they are used for collecting nuclei.
 
 
 1. Prepare two ice buckets with wet ice, a bucket with crushed dry ice to hold your frozen tissues, and a thick, flat slab of dry ice for smashing tissues. Pre-cool both a centrifuge that will hold 50-ml tubes and a microcentrifuge to 4 °C.
@@ -162,7 +162,7 @@ Add 7 ml of water to a bottle of lyophilized Qiagen protease (Qiagen, cat. no. 1
 
 **Tiny-Sci (optional approach)**
 
-<span style="color: #6495ED;">**Timing 1 h**</span>
+**<span style="color: #6495ED;">Timing 1 h</span>**
 
 ### Procedure
 
@@ -193,7 +193,7 @@ transcription.
 
 ## Nuclei/Cell Fixation
 
-<span style="color: #6495ED;">**Timing:** 1 h</span>
+**<span style="color: #6495ED;">Timing:** 1 h</span>
 
 1. For each sample, prepare fixative. In a 5-ml tube, add 100 μl of 50 mg/ml DSP stock solution to 4 ml of ice-cold methanol for every 1 ml of nuclei with which you are starting.
 
@@ -201,7 +201,7 @@ transcription.
 
 3. Fix on ice for 15 min, swirling occasionally.
 
-<span style="color: #228B22;">**PAUSE POINT**</span> Fixed samples may be held here prior to rehydration. To pause, add 0.1 volume of 1M glycine pH 8.5 to quench DSP. Store at −80°C
+**<span style="color: #228B22;">PAUSE POINT</span>** Fixed samples may be held here prior to rehydration. To pause, add 0.1 volume of 1M glycine pH 8.5 to quench DSP. Store at −80°C
 
 4. Add 2 volumes of 0.3 M SPBSTM **(or PBS-T if using cells)** gradually, 2–3 ml at a time, swirling between additions to rehydrate the nuclei. For instance, with 1 ml of nuclei and 4 ml of fixative, you would need 10 ml of buffer to rehydrate.
 
@@ -213,13 +213,13 @@ transcription.
 
 8. Divide fixed nuclei into aliquots of ~2 million nuclei (Fig. 5) in microcentrifuge tubes. Spin at 500g for 3 min at 4 °C and remove and discard the supernatant. Continue with the protocol or snap-freeze tubes in liquid nitrogen and store at −80 °C.
 
-<span style="color: #228B22;">**PAUSE POINT**</span> Fixed samples may be stored at −80 °C for ≤6 months.
+**<span style="color: #228B22;">PAUSE POINT</span>** Fixed samples may be stored at −80 °C for ≤6 months.
 
 9. (**Optional**) If continuing with the protocol the same day and there are obvious clumps at this point that will not tease apart, you will need to sonicate them to break them up. Sonicate (Diagenode Bioruptor Plus) on low intensity for 12 s only at 4 °C. Spin and resuspend the nuclei in 500 μl of 0.3M SPBSTM (or PBS-T) as in Step 21.
 
 ## Reverse Transcription
 
-<span style="color: #6495ED;">**Timing:** 2-3 h</span>
+**<span style="color: #6495ED;">Timing:** 2-3 h</span>
 
 Follow the chart below to determine how many starting nuclei you need and their volume. 
 
@@ -266,7 +266,7 @@ Remove and discard the supernatant.
 
 ## Ligation
 
-<span style="color: #6495ED;">**Timing:** 1.5 h</span>
+**<span style="color: #6495ED;">Timing:** 1.5 h</span>
 
 |4x Ligation master mix w/ 12% 1,2-propanediol |200 μl|
 |----------------------------------------------|------|
@@ -292,22 +292,22 @@ Remove and discard the supernatant.
 
 ## Final distribution
 
-<span style="color: #6495ED;">**Timing:** 1 h</span>
+**<span style="color: #6495ED;">Timing:** 1 h</span>
 
 Sort if possible.
 
-<span style="color: #702963;">**CRITICAL:**</span>  In the final plate, you will want ~1,000 nuclei/well (or 4,000/well if you have scaled up the experiment to 384 × 384 × 384). You should have enough nuclei to freeze multiple plates if you like.
+**<span style="color: #702963;">CRITICAL:</span>**  In the final plate, you will want ~1,000 nuclei/well (or 4,000/well if you have scaled up the experiment to 384 × 384 × 384). You should have enough nuclei to freeze multiple plates if you like.
 
 1. Make 400 &mu;l of 1× second-strand synthesis buffer for each plate in the !nal distribution. Dilute 40 &mu;l of 10× second-strand buffer in 360 &mu;l of water to get 1× concentration.
 2. Spin down 100,000 nuclei for each plate desired for the !nal distribution (400,000 per plate if this is a 384 × 384 × 384 experiment). For each plate/100,000, resuspend in 400 &mu;l of 1× second-strand synthesis buffer
 3. Put 4 &mu;l of nuclei into each well of a regular, not LoBind, plate on ice.
 4. Cover with foil seals and freeze plates at !80 °C or proceed with second-strand synthesis.
 
-<span style="color: #228B22;">**PAUSE POINT**</span> Plates may be kept frozen at !80 °C for à6 months.
+**<span style="color: #228B22;">PAUSE POINT</span>** Plates may be kept frozen at !80 °C for à6 months.
 
 ## Second-strand synthesis 
 
-<span style="color: #6495ED;">**Timing:** 3 h (or overnight)</span>
+**<span style="color: #6495ED;">Timing:** 3 h (or overnight)</span>
 
 1. Thaw plate on ice.
 2. Make second-strand synthesis mix on ice as follows:
@@ -321,20 +321,20 @@ Sort if possible.
 3. Put 1 &mu;l of second-strand synthesis mix into each well (17 &mu;l of mix ×8 in a strip tube for multichannel pipetting). The total volume per well is now 5 &mu;l.
 4. Incubate for 2.5 h at 16 °C in a PCR machine (no heated lid). 
 
-<span style="color: #228B22;">**PAUSE POINT**</span> Keep the plate at 4 °C for &le;24 h.
+**<span style="color: #228B22;">PAUSE POINT</span>** Keep the plate at 4 °C for &le;24 h.
 
 ## Protease Digestion
 
-<span style="color: #6495ED;">**Timing:** 2 h</span>
+**<span style="color: #6495ED;">Timing:** 2 h</span>
 
 1. Add 1 &mu;l of protease to each well.
-<span style="color: #702963;">**CRITICAL:**</span> This is not proteinase K. Using Qiagen protease (cat. no 19157) is important because it can be heat-inactivated. See Reagent setup.
+**<span style="color: #702963;">CRITICAL:</span>** This is not proteinase K. Using Qiagen protease (cat. no 19157) is important because it can be heat-inactivated. See Reagent setup.
 
 2. Incubate at 37 °C for 40 min in a PCR machine (47 °C heated lid). Check 1 &mu;l on a microscope: mix a 1-&mu;l sample with 2 &mu;l of diluted Yoyo-1 dye, put this on a slide and check on the GFP channel. You should see whisps of DNA instead of intact nuclei. If not, incubate for another 10 min before proceeding to heat inactivation.
 3. Heat-inactivate the protease at 75 °C for 20 min (85 °C heated lid).
-<span style="color: #702963;">**CRITICAL:**</span> Do not lower this temperature and do not shorten this time. Qiagen lists different conditions for heat-inactivating their protease, but it is not suf!cient. Put the plate on ice after inactivating.
+**<span style="color: #702963;">CRITICAL:</span>** Do not lower this temperature and do not shorten this time. Qiagen lists different conditions for heat-inactivating their protease, but it is not suf!cient. Put the plate on ice after inactivating.
 
-<span style="color: #228B22;">**PAUSE POINT**</span> Store the plate at 4 °C for à1 week.
+**<span style="color: #228B22;">PAUSE POINT</span>** Store the plate at 4 °C for à1 week.
 
 ## Tagmentation
 
