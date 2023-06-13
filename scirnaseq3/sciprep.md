@@ -104,16 +104,20 @@ Mix 5.45 g of Na2HPO4 (dibasic), 3.1 g of NaH2PO4·H20, 1.2 g of KH2PO4, 1 g of 
 - <span class="buffer">Hypotonic lysis buffer solution A</span><br>
 This buffer is used for whole mouse embryos E16.5 and older. Mix 5 ml of the 10× PBS-hypotonic stock solution, 5.7 g of sucrose, 75 μl of 2 M MgCl2 and nuclease-free water to a final volume of 50 ml to make the lysis base solution. Right before lysis, for every 1 ml of lysis buffer needed, add 2.5 μl of 10% (vol/vol) IGEPAL (vol/vol) and 10 μl of DEPC and then vortex the solution to disperse the DEPC throughout. For example, if a sample needs 5 ml of lysis buffer, take a 5-ml aliquot of lysis buffer stock solution and add 12.5 μl of 10% (vol/vol) IGEPAL and 50 μl of DEPC. Keep the buffer on ice. Make fresh for each experiment.
 
+<aside>
 <span class="caution">CAUTION:</span> DEPC needs to be used in a fume hood. <br>
 
 <span class="critical">CRITICAL:</span>  DEPC has a short half-life in aqueous solutions, so adding it to the buffer just before the cells are added is important.
+</aside>
 
 - <span class="buffer">Hypotonic lysis buffer solution B</span><br>
 This buffer is used for Tiny-Sci, cell lines, mouse embryos under E16.5 and isolated tissues. Mix 5 ml of the 10× PBS-hypotonic stock solution, 75 μl of 2 M MgCl2 and nuclease-free water to a final volume of 50 ml to make the lysis base solution. Right before lysis, for every 1 ml of lysis buffer needed, add 40 μl of BSA (20 mg/ml), 2.5 μl of 10% (vol/vol) IGEPAL and 10 μl of DEPC and then vortex the solution to disperse the DEPC throughout. For example, if a sample needs 5 ml of lysis buffer, take a 5-ml aliquot of lysis buffer base solution and add 200 μl of BSA, 12.5 μl of 10% (vol/vol) IGEPAL and 50μl of DEPC. Keep the buffer on ice. Make fresh for each experiment.
 
+<aside>
 <span class="caution">CAUTION:</span> DEPC needs to be used in a fume hood. <br>
 
 <span class="critical">CRITICAL:</span> DEPC has a short half-life in aqueous solutions, so adding it to the buffer just before the cells are added is important.
+</aside>
 
 - <span class="buffer">0.3 M SPBSTM (sucrose PBS TritonX MgCl2)</span><br>
 This is the main buffer used throughout the protocol for washing and diluting nuclei. Dissolve 28.5 g of sucrose in 25 ml of 10× DPBS (regular DPBS, not the hypotonic version) and 125 ml of nuclease- free water (about half the volume of water that you will need). Once the sucrose has dissolved, add 2.5 ml of 10% (vol/vol) Triton X-100, 375 μl of 2 M MgCl2 and more water to the final volume of 250 ml. Store this buffer at 4 °C for &le;3 months.
@@ -138,7 +142,9 @@ To 38.75 ml of nuclease-free water, add 1ml of 1M Tris pH7.6, 250μl of 2M MgCl<
 - <span class="buffer">Indexed primer plates</span><br>
 Primers for reverse transcription, ligation and PCR indexing steps are ordered at 100 μM. Working dilutions are made to 10 μM in EB (10 mM Tris-Cl pH 8.5) and kept at 4 °C for &le;6 months.
 
+<aside>
 <span class="critical">CRITICAL:</span>Spin the primer plates down before opening, but do not spin the plates with nuclei until the second-strand synthesis stage.
+</aside>
 
 - <span class="buffer">10% (vol/vol) IGEPAL</span><br>
 Dilute 5 ml of IGEPAL in 45 ml of nuclease-free water. Store at room temperature for &le;6 months.
@@ -152,4 +158,6 @@ Dilute 5 ml of Tween 20 in 45 ml of nuclease-free water. Store at room temperatu
 - <span class="buffer">Protease</span><br>
 Add 7 ml of water to a bottle of lyophilized Qiagen protease (Qiagen, cat. no. 19157). Make 200-μl aliquots and store them at -20 °C for &le;6 months. Do not freeze–thaw.
 
+<aside>
 <span class="critical">CRITICAL:</span>  This must be the specified protease, not proteinase K.
+</aside>
