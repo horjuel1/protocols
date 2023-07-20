@@ -2,10 +2,6 @@
 title: Maleimide conjugation
 ---
 
-# Maleimide antibody conjugation
-
-# Maleimide-mTz-TCO-NHS conjugation
-
 Based on
 
 - [Fluidigm MaxPar conjugation kit](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6687300/)
