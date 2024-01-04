@@ -1,7 +1,7 @@
 ---
 title: sci Sample Preparation
 subtitle: Modified sci-RNA-Seq3 protocol for single-cell/nucleus RNA-seq
-date: May 15, 2023
+date: Jan 4, 2024
 Author: Chaichontat Sriworarat
 ---
 
