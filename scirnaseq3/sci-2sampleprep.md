@@ -1,4 +1,4 @@
----
+    ---
 title: sci Sample Preparation
 subtitle: Modified sci-RNA-Seq3 protocol for single-cell/nucleus RNA-seq
 date: Jan 4, 2024
@@ -81,7 +81,7 @@ To print with the sidebar, resize your browser window to be narrow until the sid
    - A pre-chilled hammer at -80°C.
    - Pieces of aluminum foil folded four times for each sample.
 
-<span class="caution">CAUTION:</span> DEPC is flammable and toxic. Avoid breathing vapors. The following steps should be performed in the chemical hood from this point until the DEPC is washed from the sample. Or at the very least, add 100% DEPC in the fume hood.</span>
+<span class="caution">CAUTION:</span> DEPC is flammable and toxic. Avoid breathing vapors. The following steps should be performed in the chemical hood from this point until the DEPC is washed from the sample. Or at the very least, add 100% DEPC in the fume hood.
    - Determine the amount of lysis buffer that you need, for every 1 ml of lysis buffer needed,
      - add 2.5 μl of 10% (vol/vol) IGEPAL
      - add 10 μl of DEPC to the hypotonic lysis buffer solution (and 40 μl of BSA if using lysis buffer B) and then vortex the solution.
