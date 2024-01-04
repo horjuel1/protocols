@@ -59,6 +59,7 @@ To print with the sidebar, resize your browser window to be narrow until the sid
 **For extremely small samples (2-3 mm), skip to [Tiny-Sci](#tiny-sci)**
 
 <aside>
+
 <span class="timing">Timing: 2 h</span>
 <span class="critical">CRITICAL:</span> Keep everything cold and on ice at all times.<br>
 
@@ -68,6 +69,7 @@ To print with the sidebar, resize your browser window to be narrow until the sid
    - Adult mouse kidneys need 5 ml per kidney.
    - Adult mouse liver needs 20 ml.
    - Adult mouse pancreas needs 15 ml.
+
 </aside>
 
 1. Things to prepare beforehand.
