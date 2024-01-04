@@ -1,4 +1,4 @@
-    ---
+---
 title: sci Sample Preparation
 subtitle: Modified sci-RNA-Seq3 protocol for single-cell/nucleus RNA-seq
 date: Jan 4, 2024
