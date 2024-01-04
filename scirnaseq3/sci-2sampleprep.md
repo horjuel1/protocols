@@ -61,6 +61,13 @@ To print with the sidebar, resize your browser window to be narrow until the sid
 <aside>
 <span class="timing">Timing: 2 h</span>
 <span class="critical">CRITICAL:</span> Keep everything cold and on ice at all times.<br>
+
+  Adult tissues and tissues high in RNases will necessitate a bigger lysis volume.
+   - An E13.5 mouse embryo (~200 mg) requires 5 ml of lysis buffer.
+   - An E16.5 embryo (~500 mg) will need 20 ml. An adult mouse heart needs 5 ml.
+   - Adult mouse kidneys need 5 ml per kidney.
+   - Adult mouse liver needs 20 ml.
+   - Adult mouse pancreas needs 15 ml.
 </aside>
 
 1. Things to prepare beforehand.
@@ -71,14 +78,7 @@ To print with the sidebar, resize your browser window to be narrow until the sid
    - A thick, flat slab of dry ice or metal for smashing tissues.
    - A pre-chilled hammer at -80°C.
    - Pieces of aluminum foil folded four times for each sample.
-     <aside>
-  Adult tissues and tissues high in RNases will necessitate a bigger lysis volume.
-   - An E13.5 mouse embryo (~200 mg) requires 5 ml of lysis buffer.
-   - An E16.5 embryo (~500 mg) will need 20 ml. An adult mouse heart needs 5 ml.
-   - Adult mouse kidneys need 5 ml per kidney.
-   - Adult mouse liver needs 20 ml.
-   - Adult mouse pancreas needs 15 ml.
-   </aside>
+
 <span class="caution">CAUTION:</span> DEPC is flammable and toxic. Avoid breathing vapors. The following steps should be performed in the chemical hood from this point until the DEPC is washed from the sample. Or at the very least, add 100% DEPC in the fume hood.</span>
    - Determine the amount of lysis buffer that you need, for every 1 ml of lysis buffer needed,
      - add 2.5 μl of 10% (vol/vol) IGEPAL
