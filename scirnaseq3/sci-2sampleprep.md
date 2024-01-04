@@ -133,7 +133,9 @@ To print with the sidebar, resize your browser window to be narrow until the sid
   - If things are still clumpy, we use a Branson 250 W sonicator with a 3 mm tip with 40% duty cycle at the lowest power setting (around 2) for 3-4 cycles in a 1.5 ml tube with at least 750 μl of SPBSTM. Keep the tip at least 5 mm in the solution to avoid foaming. Do not let the tip get in contact with the tube. Put on ice right away. This should obliterate everything. We have verified that the DAPI signal remains unchanged after the sonication.
 
 
-## Tiny-Sci (optional approach)
+## Tiny-Sci
+
+An optional approach
 
 1. Samples should be no more than **2-3 mm** in size, should be frozen individually in a microcentrifuge tube and kept on dry ice until lysis. The key to these small samples is to limit pipetting  and tube transfers that will leave behind precious nuclei.
 
