@@ -56,7 +56,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          sudo apt install libpango1.0-dev
+          sudo apt install libpango1.0-dev libgif-dev
           cd actions/sciblog
           npm ci
           npm run build
