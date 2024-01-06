@@ -63,57 +63,63 @@ To print with the sidebar, resize your browser window to be narrow until the sid
 
 <span class="timing">Timing: 2-3 h</span>
 
-Follow the chart below to determine how many starting nuclei you need and their volume.
-
-| No. of cells           | 2,000,000 | 1,000,000 | 800,000 | 500,000 | 400,000 | 200,000 |
-| ---------------------- | --------- | --------- | ------- | ------- | ------- | ------- |
-| **No. of columns**     | 12        | 6         | 4       | 3       | 2       | 1       |
-| **Nuclei volume (μl)** | 500       | 250       | 170     | 125     | 85      | 42.5    |
-| **10 mM dNTP (μl)**    | 56        | 28        | 19      | 14      | 9.5     | 4.75    |
-
-If you are dividing the plate among multiple samples, then the chart will outline the cell number you need depending on how many columns in the plate each sample will occupy. For example, if you will have two samples on one plate, each one will take six columns, you will need 1 million cells of each sample in a tube to start with in a volume of 250 μl each, and you will add 28 μl of dNTPs to each before distributing to their RT plate wells.
+The target is 2.4M cells/plate or 200,000 cells/column.
 
 1. Resuspend an aliquot of frozen nuclei in 500 μl of 0.3 M SPBSTM to start and count. Dilute nuclei if necessary to get an accurate count.<br>
   _If nuclei are clumpy, sonicate (Diagenode Bioruptor Plus) on low intensity for 12 s only at 4°C.
   If there is still an excess of clumps, put the nuclei over a 40-μm Flow-mi pipette tip filter before counting.
-  Use of a Flow-mi μlter is a last resort because it results in nuclei loss but is helpful if you have an excess of nuclei._
-2. Pull out the desired amount of nuclei into a new tube and spin. Remove the supernatant and resuspend nuclei in the necessary volume of 0.3 M SPBSTM determined by the chart above and add the appropriate amount of dNTPs.
-3. Distribute 5-μl aliquots of nuclei+dNTP mix to each well of the plate on ice.
-4. Quickly spin RT primers (**plate 1**) (10 μM)
-5. Add 2 μl of primer to each well. Do not pipette up and down to mix; just stir gently with the pipette tips.
-6. Incubate the plate at 55°C for 5 min in a PCR machine (heated lid set to 65°C), then immediately place on ice or **4°C in the thermocycler**.
-7. While this is incubating, make the reaction mix.<br>
-  _We do not include dithiothreitol in this mix because it will undo the DSP cross-links (it is not necessary for the RT to work)._
+  Use of a Flow-mi filter is a last resort because it results in nuclei loss but is helpful if you have an excess of nuclei._
 
-| RT mix per plate                  | 1 well | x110 |
+2. Bring predispensed primer plates out and quickly spin. There's 2 μl of primer in each well.
+3. Set the thermal cycler up to be ready (lid at 65°C). (from ISAACC-Seq)
+
+
+
+| Step | Temperature                  | Time |
+| ---- | ---------------------------- | ---- |
+|   1  | 50°C | 10 min |
+| 2| 8°C | 12 s |
+|3|15°C | 45 s |
+|4|20°C | 45 s |
+|5|30°C | 30 s |
+|6| 42°C | 2 min |
+|7| 50°C | 3 min | 
+|8| 65°C | 1 min|
+|| Go to step 3, 2 more times (3 total) ||
+|9| 50 °C | 5 min |
+
+5. Setup the master mix. PEG is viscous and is slow to mix with water. Make sure that everything well mixed before proceeding.
+
+| RT mix per plate                  | 1 well | x100 |
 | --------------------------------- | ------ | ---- |
-| 5× Superscript IV buffer (μl)     | 2      | 220  |
-| Maxima RT H Minus (μl)            | 0.25   | 27.5 |
-| Nuclease-free H<sub>2</sub>O (μl) | 0.75   | 82.5 |
+| 5× Superscript IV buffer (μl)     | 2      |  200 |
+| dNTPs                             | 0.5    |   50 |
+| 50% PEG                           | 1.5    |  150 |
+| Maxima RT H Minus (μl)            | 0.25   |   25 |
+| RNaseIn Plus                      | 0.05   |    5 |
+| Nuclease-free H<sub>2</sub>O (μl) | 5.75   |  575 |
 
 **Do NOT use 5x Maxima buffer as it contains DTT**
 
-8. Put 3 μl of reaction mix into each well (45 μl of mix × 8 in a strip tube for multichannel pipetting), stirring gently with tips.
-  <br>The total volume per well is now 10 μl.
-9. Incubate at 50°C for 30 min (heated lid at 65°C) and then immediately place on ice.
-10. Ice plates until they are cold (>2 min).
-11. Add 5 μl of cold 0.3 M SPBSTM per well.<br>
+5. Pull out the desired amount of nuclei into a new tube and spin. Remove the supernatant and resuspend nuclei in the RT reaction mix.
+
+6. Dispense 8 μl of reaction mix into each well (65 μl of mix × 8 in a strip tube for multichannel pipetting). Do not touch the bottom of the plate if you do not want to change tips.
+7. Start the thermal cycler program.
+8. Ice plates until they are cold (>2 min).
+9. Add 5 μl of cold 0.3 M SPBSTM per well.<br>
   _To maximize recovery, pool wells by using a 12-multichannel pipette with 200 μl tips to pipette gently up and down
   (the pipetting up and down is important to dislodge the nuclei, but try to avoid creating excessive bubbles)
   and combine each row of the plate into the bottom row. You can use the same tips for the whole plate.
   Collect these wells into two cold microcentrifuge tubes.
-  (The solution will be bubbly, so it is difficult to squeeze into one tube.) although if you do it properly, one tube is enough (or use 2ml LoBind tubes)_
-12. Spin at **1,000 g** for 3 min at 4°C. The pellet will be small, but you should be able to see it. Remove and discard the supernatant. **1,000 g** 1 min
-13. Combine tubes and wash once more in 1 ml of cold 0.3 M SPBSTM. Spin at **1,000 g** for 3 min at 4°C.
+  (The solution will be bubbly, so it is difficult to squeeze into one tube, although if you do it properly, one tube is enough (or use 2 ml tubes)_
+10. Spin at **1,000 g** for 3 min at 4°C. The pellet will be small, but you should be able to see it. Remove and discard the supernatant.
+11. Combine tubes and wash once more in 1 ml of cold 0.3 M SPBSTM. Spin at **1,000 g** for 3 min at 4°C.
 Remove and discard the supernatant.
 
 ## Ligation
 
-<aside>
-
 <span class="timing">Timing: 1.5 h</span>
 
-</aside>
 
 | 4x Ligation master mix w/ 12% 1,2-propanediol | 200 μl |
 | --------------------------------------------- | ------ |
