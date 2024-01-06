@@ -56,21 +56,22 @@ To print with the sidebar, resize your browser window to be narrow until the sid
 
 ### Nuclei isolation
 
+<span class="timing">Timing: 2 h</span>
 **For extremely small samples (2-3 mm), skip to [Tiny-Sci](#tiny-sci)**
 
 <aside>
 
 <span class="timing">Timing: 2 h</span>
-<span class="critical">CRITICAL:</span> Keep everything cold and on ice at all times.<br>
-
-  Adult tissues and tissues high in RNases will necessitate a bigger lysis volume.
-   - An E13.5 mouse embryo (~200 mg) requires 5 ml of lysis buffer.
-   - An E16.5 embryo (~500 mg) will need 20 ml. An adult mouse heart needs 5 ml.
-   - Adult mouse kidneys need 5 ml per kidney.
-   - Adult mouse liver needs 20 ml.
-   - Adult mouse pancreas needs 15 ml.
+Adult tissues and tissues high in RNases will necessitate a bigger lysis volume.
+ - An E13.5 mouse embryo (~200 mg) requires 5 ml of lysis buffer.
+ - An E16.5 embryo (~500 mg) will need 20 ml. An adult mouse heart needs 5 ml.
+ - Adult mouse kidneys need 5 ml per kidney.
+ - Adult mouse liver needs 20 ml.
+ - Adult mouse pancreas needs 15 ml.
 
 </aside>
+
+<span class="critical">CRITICAL:</span> Keep everything cold and on ice at all times.<br>
 
 1. Things to prepare beforehand.
    - Pre-cool a microcentrifuge to 4°C.
