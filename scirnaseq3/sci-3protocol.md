@@ -65,53 +65,47 @@ To print with the sidebar, resize your browser window to be narrow until the sid
 
 The target is 2.4M cells/plate or 200,000 cells/column.
 
-1. Resuspend an aliquot of frozen nuclei in 500 μl of 0.3 M SPBSTM to start and count. Dilute nuclei if necessary to get an accurate count.<br>
+1. Resuspend an aliquot of frozen nuclei in 500 μl of 0.3 M SPBSTM to start and count. Dilute nuclei if necessary to get an accurate count.
   _If nuclei are clumpy, sonicate (Diagenode Bioruptor Plus) on low intensity for 12 s only at 4°C.
   If there is still an excess of clumps, put the nuclei over a 40-μm Flow-mi pipette tip filter before counting.
   Use of a Flow-mi filter is a last resort because it results in nuclei loss but is helpful if you have an excess of nuclei._
 
 2. Bring predispensed primer plates out and quickly spin. There's 2 μl of primer in each well.
 3. Set the thermal cycler up to be ready (lid at 65°C). (from ISAACC-Seq)
+  | Step | Temperature                          | Time   |
+  | ---- | ------------------------------------ | ------ |
+  | 1    | 50°C                                 | 10 min |
+  | 2    | 8°C                                  | 12  s  |
+  | 3    | 15°C                                 | 45  s  |
+  | 4    | 20°C                                 | 45  s  |
+  | 5    | 30°C                                 | 30  s  |
+  | 6    | 42°C                                 | 2  min |
+  | 7    | 50°C                                 | 3  min |
+  | 8    | 65°C                                 | 1 min  |
+  |      | Go to step 3, 2 more times (3 total) |        |
+  | 9    | 50 °C                                | 5 min  |
 
-
-
-| Step | Temperature                  | Time |
-| ---- | ---------------------------- | ---- |
-|   1  | 50°C | 10 min |
-| 2| 8°C | 12 s |
-|3|15°C | 45 s |
-|4|20°C | 45 s |
-|5|30°C | 30 s |
-|6| 42°C | 2 min |
-|7| 50°C | 3 min | 
-|8| 65°C | 1 min|
-|| Go to step 3, 2 more times (3 total) ||
-|9| 50 °C | 5 min |
-
-5. Setup the master mix. PEG is viscous and is slow to mix with water. Make sure that everything well mixed before proceeding.
-
-| RT mix per plate                  | 1 well | x100 |
-| --------------------------------- | ------ | ---- |
-| 5× Superscript IV buffer (μl)     | 2      |  200 |
-| dNTPs                             | 0.5    |   50 |
-| 50% PEG                           | 1.5    |  150 |
-| Maxima RT H Minus (μl)            | 0.25   |   25 |
-| RNaseIn Plus                      | 0.05   |    5 |
-| Nuclease-free H<sub>2</sub>O (μl) | 5.75   |  575 |
-
-**Do NOT use 5x Maxima buffer as it contains DTT**
+4. Setup the master mix. PEG is viscous and is slow to mix with water. Make sure that everything well mixed before proceeding.
+    **Do NOT use 5x Maxima buffer as it contains DTT**
+    | RT mix per plate                  | 1 well | x100 |
+    | --------------------------------- | ------ | ---- |
+    | 5× Superscript IV buffer (μl)     | 2      | 200  |
+    | dNTPs                             | 0.5    | 50   |
+    | 50% PEG                           | 1.5    | 150  |
+    | Maxima RT H Minus (μl)            | 0.25   | 25   |
+    | RNaseIn Plus                      | 0.05   | 5    |
+    | Nuclease-free H<sub>2</sub>O (μl) | 5.75   | 575  |
 
 5. Pull out the desired amount of nuclei into a new tube and spin. Remove the supernatant and resuspend nuclei in the RT reaction mix.
-
 6. Dispense 8 μl of reaction mix into each well (65 μl of mix × 8 in a strip tube for multichannel pipetting). Do not touch the bottom of the plate if you do not want to change tips.
 7. Start the thermal cycler program.
 8. Ice plates until they are cold (>2 min).
-9. Add 5 μl of cold 0.3 M SPBSTM per well.<br>
+9. Add 5 μl of cold 0.3 M PBS-T per well. SPBSTM may cause pelleting issues here.
   _To maximize recovery, pool wells by using a 12-multichannel pipette with 200 μl tips to pipette gently up and down
   (the pipetting up and down is important to dislodge the nuclei, but try to avoid creating excessive bubbles)
   and combine each row of the plate into the bottom row. You can use the same tips for the whole plate.
   Collect these wells into two cold microcentrifuge tubes.
-  (The solution will be bubbly, so it is difficult to squeeze into one tube, although if you do it properly, one tube is enough (or use 2 ml tubes)_
+  (The solution will be bubbly, so it is difficult to squeeze into one tube, although if you do it properly, one tube is enough (or use 2 ml tubes))
 10. Spin at **1,000 g** for 3 min at 4°C. The pellet will be small, but you should be able to see it. Remove and discard the supernatant.
 11. Combine tubes and wash once more in 1 ml of cold 0.3 M SPBSTM. Spin at **1,000 g** for 3 min at 4°C.
 Remove and discard the supernatant.
@@ -120,50 +114,43 @@ Remove and discard the supernatant.
 
 <span class="timing">Timing: 1.5 h</span>
 
+1. Thaw and spin down the ligation primer plate.
+2. Prepare the ligation mix on ice:
 
-| 4x Ligation master mix w/ 12% 1,2-propanediol | 200 μl |
-| --------------------------------------------- | ------ |
-| 10x T4 buffer                                 | 80 μl  |
-| 1,2-propanediol                               | 96 μl  |
-| T4 ligase                                     | 20 μl  |
-| Nuclease-free H<sub>2</sub>O                  | 4 μl   |
+| Ligation mix  | 1 well | 100 wells |
+| ------------- | ------ | --------- |
+| 10x T4 buffer | 1.0 μl | 100 μl    |
+| 50% PEG       | 1.5 μl | 150 μl    |
+| 20 mg/ml BSA  | 0.5 μl | 50 μl     |
+| T4 ligase     | 0.2 μl | 20 μl     |
+| Water         | 4.8 μl | 480 μl    |
 
-> \*_Make and store at -20°C. Should not freeze._
 
-1. Resuspend nuclei in 1,200 μl of 0.3 M SPBSTM.
-2. Distribute 5 μl to each well of a new plate on ice.
-3. Quick-spin the plate of **ligation primers (plate 2)** (10 μM).
-4. Add 2 μl of primer to each well. Do not pipette up and down.
-5. Add 2.5 μl of 4x ligation master mix to each well (45 μl of mix × 8 in a strip tube for multichannel pipetting), stirring gently with tips.<br>
-  _The total volume per well is now 9.5 μl._
-6. Incubate for 20 min at room temperature.
+3. Resuspend nuclei in the ligation mix at 4°C
+4. Distribute 8 μl to each well of a new plate on ice.
+5. Re-cover the plate with seals, spin-down, vortex at 2,000 rpm for 10 s, and spin-down.
+6. Incubate for 30 min at room temperature.
 7. Ice plates until cold.
 8. Add 10 μl of cold SPBSTM to each well. This helps keep the nuclei from clumping and allows for more nuclei to be recovered.
 9. Pool wells by using a 12-multichannel to pipette gently up and down (the pipetting up and down is important to dislodge the nuclei) and combine each row of the plate into the bottom row. Then, collect these wells into two cold microcentrifuge tubes.
 10. Spin at **1,000 g** for 1 min at 4°C. Remove and discard the supernatant.
-11. Combine the two tubes and wash twice more with 1 ml of 0.3 M SPBSTM per wash.
-12. Resuspend in 1 ml of 0.3 M SPBSTM to count.
-  <br>If nuclei are clumpy and cannot be teased apart with gentle pipetting, sonicate on low intensity for 6 s only at 4°C and recount. Note that this is a shorter sonication step than before.
+11. Combine the two tubes and wash once more with 1 ml of 0.3 M SPBSTM per wash.
+<!-- 12. Resuspend in 1 ml of 0.3 M SPBSTM to count. -->
+  <!-- <br>If nuclei are clumpy and cannot be teased apart with gentle pipetting, sonicate using the benchtop sonicator. -->
 
 ## Final distribution
 
-<aside>
-
 <span class="timing">Timing: 1 h</span>
 
-</aside>
+<span class="critical">CRITICAL:</span>  In the final plate, you will want ~1,000 nuclei/well (or 4,000/well if you have scaled up the experiment to 384 × 384 × 384). You should have enough nuclei to freeze multiple plates if you like.
 
-Sort if possible.
+1. Spin down and resuspend in PBS with 0.5% DNase-free BSA w/ 1:1000 RNaseIn and 0.1 μg/ml DAPI for sorting. **Do not use SPBSTM, the nozzle will leak due to the presence of Triton**.
+2. Sort nuclei into a 1.5 ml tube coated with 100 μl SPBSTM.
+3. Centrifuge at **1,000 g** for 2 min at 4°C. Resuspend in 1× second-strand buffer targeting 5 μl/well. Base is 1,000 cells/well with 1 ligation plate, increase the concentration as needed.
+4. If proceeding, add the enzyme mix. We usually sort an extra plate with a few extra strip of tubes for diagnostics.
+5. Cover with foil seals and freeze plates at -80°C or proceed with second-strand synthesis.
 
-> <span class="critical">CRITICAL:</span>  In the final plate, you will want ~1,000 nuclei/well (or 4,000/well if you have scaled up the experiment to 384 × 384 × 384). You should have enough nuclei to freeze multiple plates if you like.
-
-1. Make 400 μl of 1× second-strand synthesis buffer for each plate in the final distribution.
-2. Spin down 100,000 nuclei for each plate desired for the final distribution. For each plate, resuspend in 400 μl of 1× second-strand synthesis buffer<br>
-  _(400,000 per plate if this is a 384 × 384 × 384 experiment)._
-3. Put 4 μl of nuclei into each well of a regular, not LoBind, plate on ice.
-4. Cover with foil seals and freeze plates at -80°C or proceed with second-strand synthesis.
-
-> <span class="pause">PAUSE POINT</span> Plates may be kept frozen at -80°C for &le;6 months.
+<span class="pause">PAUSE POINT</span> Plates may be kept frozen at -80°C for &le;6 months.
 
 ## Second-strand synthesis
 
@@ -200,15 +187,12 @@ Sort if possible.
 
 > <span class="critical">CRITICAL:</span> This is not proteinase K. Using Qiagen protease (cat. no 19157) is important because it can be heat-inactivated. See Reagent setup.
 
-2. Incubate at 37°C for 40 min in a PCR machine (47°C heated lid).<br>
-  _Usually not necessary_. Check 1 μl on a microscope: mix a 1-μl sample with 2 μl of diluted Yoyo-1 dye. **DAPI works as well if you have the cube**, put this on a slide and check on the GFP channel.
-  You should see whisps of DNA instead of intact nuclei. If not, incubate for another 10 min before proceeding to heat inactivation.
+2. Incubate at 37°C for 40 min and heat-inactivate the protease at 75°C for 20 min in a PCR machine (85°C heated lid).
 
-3. Heat-inactivate the protease at 75°C for 20 min (85°C heated lid).
 
 > <span class="critical">CRITICAL:</span> Do not lower this temperature and do not shorten this time. Qiagen lists different conditions for heat-inactivating their protease, but it is not sufficient. Put the plate on ice after inactivating.
 
-> <span class="pause">PAUSE POINT</span> Store the plate at 4°C for &le;1 week.
+<span class="pause">PAUSE POINT</span> Store the plate at 4°C for &le;1 week.
 
 ## Tagmentation
 
@@ -220,19 +204,17 @@ Sort if possible.
 
 1. On ice, make tagmentation mix as follows:
 
-   | Reaction mix per plate            | 1well | x110   |
+   | Reaction mix per plate            | 1well | x100   |
    | --------------------------------- | ----- | ------ |
-   | 2x Tagment DNA buffer (μl)        | 2.5   | 275    |
-   | Nuclease-free H<sub>2</sub>O (μl) | 2.375 | 262    |
-   | N7-loaded Tn5 (μl)                | 0.125 | 13.75  |
-   | Total (μl)                        | 5     | 550.75 |
+   | 2x Tagment DNA buffer (μl)        | 2.5   | 250    |
+   | Nuclease-free H<sub>2</sub>O (μl) | 2.25  | 225    |
+   | N7-loaded Tn5 (μl)                | 0.25  |  25    |
 
 2. On ice, add 5 μl of tagmentation mix to each well.<br>
   The total volume per well is now ~10-11 μl.
-3. Incubate for 5 min at 55°C in a PCR machine (65°C heated lid).<br>
-  _Do not put on ice afterwards;
-  just keep on the bench at room temperature as you add the next reaction mix,
-  or else the SDS will come out of solution at the next step._
+3. Incubate for 10 min at 55°C in a PCR machine (65°C heated lid) and ramp down to 10°C.
+  Continue as soon as possible since Tn5 is still active.
+  Do not put on ice afterwards or the SDS will precipitate
 4. Remove the transposases with this buffer (keep at room temperature):
 
    | Reaction mix per plate            | 1 well | x120 |
@@ -248,34 +230,21 @@ Sort if possible.
 
 ## Library Amplification
 
-<aside>
-
 <span class="timing">Timing 1h</span>
-</aside>
 
-1. Assemble the PCR master mix. PCR is done with 96 indexed P7 primers and 1 P5 primer. You can also add an optional index sequence on the P5 primer for multiplexing multiple plates. The primers are as follows: plate of 96 indexed PCR P7 primers <span class="sequence">(5'-CAAGCAGAAGACGGCATACGAGA T[PCR P7 index]GTCTCGTGGGCTCGG-3'</span>) and TruSeqP5 primer(s) <span class="sequence">(5'-AATGATACGGCGAC CACCGAGATCTACAC[PCR P5 index]ACACTCTTTCCCTACACGACGCTCTTCCGATCT-3'</span>).
-
-| Reaction mix per plate            | 1 well | x110  |
-| --------------------------------- | ------ | ----- |
-| 2x NEBNext (μl)                   | 20     | 2,200 |
-| TruSeqP5 primer(s) (μl)           | 0.2    | 22    |
-| Nuclease-free H<sub>2</sub>O (μl) | 3.2    | 352   |
-| Total (μl)                        | 23.4   | 2,574 |
-
-2. Add 2 μl of indexed P7 primers (10 μM) to each well.
-3. Add 23.4 μl of PCR master mix to each well.
-4. Amplify in a PCR machine by using 16 cycles **withOUT** a pre-extension step in the following program:
-
+1. Prepare the primer plate 2 μl of indexed P7 primers (10 μM) to each well.
+2. Add 20 μl of 2× Takara Ex Premier PCR mix to each well. Vortex at 2,000 rpm for 10 s and spin down.
+3. Amplify in a PCR machine by using 16 cycles **withOUT** a pre-extension step in the following program:
    | Step | Temperature                 | Time  |
    | ---- | --------------------------- | ----- |
-   | 1    | 98ºC                        | 30 s  |
-   | 2    | 98ºC                        | 10 s  |
-   | 3    | 63ºC                        | 30 s  |
-   | 4    | 72ºC                        | 1 min |
-   | 5    | go to Step 3, 15 more times |       |
-   | 6    | 72ºC                        | 5 min |
+   | 1    | 94°C                        | 1 min |
+   | 2    | 98°C                        | 10 s  |
+   | 3    | 63°C                        | 15 s  |
+   | 4    | 68°C                        | 45 s  |
+   | 5    | go to Step 3, 17 more times |       |
+   | 6    | 68°C                        | 3 min |
 
-5. Run 1.5 μl of a few wells on a 6% PAGE gel in TBE buffer at 200V for 30 min to check amplification. You should see a smear of products with primer-dimers underneath. We isolate a section of the smear centered on 400 bp.
+4. Pick a few wells, **dilute the product 20-fold in DI** and run on a Tapestation D5000 HS assay to check for amplification.
 
 ### Concentration of library and agarose gel purification
 
