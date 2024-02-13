@@ -94,13 +94,13 @@ The target is 2.4M cells/plate or 200,000 cells/column.
     | 50% PEG                           | 1.5    | 150  |
     | Maxima RT H Minus (μl)            | 0.25   | 25   |
     | RNaseIn Plus                      | 0.05   | 5    |
-    | Nuclease-free H<sub>2</sub>O (μl) | 5.75   | 575  |
+    | Nuclease-free H<sub>2</sub>O (μl) | 3.75   | 375  |
 
 5. Pull out the desired amount of nuclei into a new tube and spin. Remove the supernatant and resuspend nuclei in the RT reaction mix.
 6. Dispense 8 μl of reaction mix into each well (65 μl of mix × 8 in a strip tube for multichannel pipetting). Do not touch the bottom of the plate if you do not want to change tips.
 7. Start the thermal cycler program.
 8. Ice plates until they are cold (>2 min).
-9. Add 5 μl of cold 0.3 M PBS-T per well. SPBSTM may cause pelleting issues here.
+9. Add 9 μl of cold 0.3 M PBS-T per well. SPBSTM may cause pelleting issues here.
   _To maximize recovery, pool wells by using a 12-multichannel pipette with 200 μl tips to pipette gently up and down
   (the pipetting up and down is important to dislodge the nuclei, but try to avoid creating excessive bubbles)
   and combine each row of the plate into the bottom row. You can use the same tips for the whole plate.
@@ -129,7 +129,7 @@ Remove and discard the supernatant.
 3. Resuspend nuclei in the ligation mix at 4°C
 4. Distribute 8 μl to each well of a new plate on ice.
 5. Re-cover the plate with seals, spin-down, vortex at 2,000 rpm for 10 s, and spin-down.
-6. Incubate for 30 min at room temperature.
+6. Incubate for 10 min at room temperature.
 7. Ice plates until cold.
 8. Add 10 μl of cold SPBSTM to each well. This helps keep the nuclei from clumping and allows for more nuclei to be recovered.
 9. Pool wells by using a 12-multichannel to pipette gently up and down (the pipetting up and down is important to dislodge the nuclei) and combine each row of the plate into the bottom row. Then, collect these wells into two cold microcentrifuge tubes.
@@ -187,7 +187,7 @@ Remove and discard the supernatant.
 
 > <span class="critical">CRITICAL:</span> This is not proteinase K. Using Qiagen protease (cat. no 19157) is important because it can be heat-inactivated. See Reagent setup.
 
-2. Incubate at 37°C for 40 min and heat-inactivate the protease at 75°C for 20 min in a PCR machine (85°C heated lid).
+2. Incubate at 37°C for 1 h and heat-inactivate the protease at 75°C for 20 min in a PCR machine (85°C heated lid).
 
 
 > <span class="critical">CRITICAL:</span> Do not lower this temperature and do not shorten this time. Qiagen lists different conditions for heat-inactivating their protease, but it is not sufficient. Put the plate on ice after inactivating.
@@ -212,21 +212,7 @@ Remove and discard the supernatant.
 
 2. On ice, add 5 μl of tagmentation mix to each well.<br>
   The total volume per well is now ~10-11 μl.
-3. Incubate for 10 min at 55°C in a PCR machine (65°C heated lid) and ramp down to 10°C.
-  Continue as soon as possible since Tn5 is still active.
-  Do not put on ice afterwards or the SDS will precipitate
-4. Remove the transposases with this buffer (keep at room temperature):
-
-   | Reaction mix per plate            | 1 well | x120 |
-   | --------------------------------- | ------ | ---- |
-   | 1% (wt/vol) SDS (μl)              | 0.4    | 48   |
-   | BSA (μl)                          | 0.4    | 48   |
-   | Nuclease-free H<sub>2</sub>O (μl) | 1.8    | 216  |
-   | Total (μl)                        | 2.6    | 312  |
-
-5. Add 2.6 μl to each well and mix (39 μl ×8 into a strip tube for multichannel pipetting).
-6. Incubate for 15 min at 55°C in a PCR machine (65°C heated lid).
-7. Quench SDS by adding 2 μl of 10% (vol/vol) Tween 20 to each well.
+3. Incubate for 5 min at 55°C in a PCR machine, heat-inactive the transposase at 80°C for 5 min and ramp down to 4°C (65°C heated lid). 
 
 ## Library Amplification
 
@@ -234,14 +220,14 @@ Remove and discard the supernatant.
 
 1. Prepare the primer plate 2 μl of indexed P7 primers (10 μM) to each well.
 2. Add 20 μl of 2× Takara Ex Premier PCR mix to each well. Vortex at 2,000 rpm for 10 s and spin down.
-3. Amplify in a PCR machine by using 16 cycles **withOUT** a pre-extension step in the following program:
+3. Amplify in a PCR machine by using 17 cycles **withOUT** a pre-extension step in the following program:
    | Step | Temperature                 | Time  |
    | ---- | --------------------------- | ----- |
    | 1    | 94°C                        | 1 min |
    | 2    | 98°C                        | 10 s  |
    | 3    | 63°C                        | 15 s  |
    | 4    | 68°C                        | 45 s  |
-   | 5    | go to Step 3, 17 more times |       |
+   | 5    | go to Step 3, 16 more times |       |
    | 6    | 68°C                        | 3 min |
 
 4. Pick a few wells, **dilute the product 20-fold in DI** and run on a Tapestation D5000 HS assay to check for amplification.
