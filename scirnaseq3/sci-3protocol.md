@@ -213,7 +213,7 @@ Remove and discard the supernatant.
 2. On ice, add 5 μl of tagmentation mix to each well.<br>
   The total volume per well is now ~10-11 μl.
 3. Incubate for 10 min at 55°C in a PCR machine, heat-inactivate the transposase at 80°C for 5 min (65°C heated lid) and ramp down to 4°C.
-  Do not put on ice afterwards or the SDS will precipitate
+  Do not put on ice afterwards or the SDS will precipitate.
 
 ## Library Amplification
 
