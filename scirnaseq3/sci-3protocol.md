@@ -100,7 +100,7 @@ The target is 2.4M cells/plate or 200,000 cells/column.
 6. Dispense 8 μl of reaction mix into each well (65 μl of mix × 8 in a strip tube for multichannel pipetting). Do not touch the bottom of the plate if you do not want to change tips.
 7. Start the thermal cycler program.
 8. Ice plates until they are cold (>2 min).
-9. Add 5 μl of cold 0.3 M PBS-T per well. SPBSTM may cause pelleting issues here.
+9. Add 9 μl of cold 0.3 M PBS-T per well. SPBSTM may cause pelleting issues here.
   _To maximize recovery, pool wells by using a 12-multichannel pipette with 200 μl tips to pipette gently up and down
   (the pipetting up and down is important to dislodge the nuclei, but try to avoid creating excessive bubbles)
   and combine each row of the plate into the bottom row. You can use the same tips for the whole plate.
